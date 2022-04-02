@@ -1,2 +1,0 @@
-@W: BN117 :|Instance DPHY_RX_INST of partition view:work.\\\~DPHY_RX\.DPHY_RX_TOP\ (verilog) has no references to its outputs; instance not removed. 
-@W: BN117 :|Instance DPHY_RX_INST of partition view:work.\\\~DPHY_RX\.DPHY_RX_TOP\ (verilog) has no references to its outputs; instance not removed. 

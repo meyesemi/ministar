@@ -1,5 +1,0 @@
-Library, Design Unit, compile Time, Peak Mem Usage
-work, I2C_MASTER_Top, 0h:00m:00s,     90 MB
-work, \~i2c_master.I2C_MASTER_Top , 0h:00m:00s,     90 MB
-work, \~I2C_Master_Bit_Ctrl.I2C_MASTER_Top , 0h:00m:00s,     94 MB
-work, \~I2C_Master_Byte_Ctrl.I2C_MASTER_Top , 0h:00m:00s,     94 MB

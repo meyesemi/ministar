@@ -1,7 +1,0 @@
-D:\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  video_top  -multisrs  J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\synthesize\rev_1\synwork\dk_video_comp.srs  -osyn  J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\synthesize\rev_1\synwork\dk_video_mult.srs  -log  J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\synthesize\rev_1\synlog\dk_video_multi_srs_gen.srr 
-relcom:D:\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro\bin64\syn_nfilter.exe -link -top video_top -multisrs ..\synwork\dk_video_comp.srs -osyn ..\synwork\dk_video_mult.srs -log ..\synlog\dk_video_multi_srs_gen.srr
-rc:0 success:1 runtime:1
-file:..\synwork\dk_video_comp.srs|io:i|time:1601276753|size:1540870|exec:0|csum:7EB5DAA8B282FDCC5512B18551BA8127
-file:..\synwork\dk_video_mult.srs|io:o|time:1601276755|size:12835|exec:0|csum:
-file:..\synlog\dk_video_multi_srs_gen.srr|io:o|time:1601276755|size:1197|exec:0|csum:
-file:D:\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1589223566|size:8875008|exec:1|csum:CB377A51AC326E9B678CA2CFE4C984B2

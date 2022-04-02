@@ -1,7 +1,0 @@
-D:\Gowin\Gowin_V1.9.3.01Beta_37928_20200110\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  D:\proj\dk_video_csi\temp\gao\ao_control\rev_1\synwork\ao_control_comp.srs  -osyn  D:\proj\dk_video_csi\temp\gao\ao_control\rev_1\synwork\ao_control_mult.srs  -log  D:\proj\dk_video_csi\temp\gao\ao_control\rev_1\synlog\ao_control_multi_srs_gen.srr 
-relcom:..\..\..\..\..\..\..\Gowin\Gowin_V1.9.3.01Beta_37928_20200110\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\ao_control_comp.srs -osyn ..\synwork\ao_control_mult.srs -log ..\synlog\ao_control_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\ao_control_comp.srs|io:i|time:1583911733|size:10223|exec:0|csum:32E0F9E20006B2B687B0E522DBBD0CE8
-file:..\synwork\ao_control_mult.srs|io:o|time:1583911734|size:9892|exec:0|csum:
-file:..\synlog\ao_control_multi_srs_gen.srr|io:o|time:1583911734|size:1062|exec:0|csum:
-file:..\..\..\..\..\..\..\Gowin\Gowin_V1.9.3.01Beta_37928_20200110\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1578425168|size:8866816|exec:1|csum:F4563BC46C014171161B5E449A2B6574

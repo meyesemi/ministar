@@ -1,7 +1,0 @@
-ckid0_1:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1
-ckid0_2:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2
-ckid0_3:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_3==1@|M:ClockId_0_3
-ckid0_4:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_4==1@|M:ClockId_0_4
-ckid0_6:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_6==1@|M:ClockId_0_6
-ckid0_7:@|S:ENCRYPTED@|E:ENCRYPTED@|F:@syn_dgcc_clockid0_7==1@|M:ClockId_0_7
-ckid0_8:@|S:u_DPHY_RX_TOP.clk_byte_out@|E:data_out_reg[63:0]@|F:@syn_dgcc_clockid0_8==1@|M:ClockId_0_8

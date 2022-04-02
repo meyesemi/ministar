@@ -1,9 +1,0 @@
-@N|Running in 64-bit mode
-@N|Running in 64-bit mode
-@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
-@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
-@N: CG364 :"D:\Gowin\Gowin_V1.9.3.01Beta_37928_20200110\IDE\ipcore\MIPI_RX\data\DPHY_RX_TOP.v":25:22:25:22|Synthesizing module DPHY_RX_TOP in library work.
-@N|Running in 64-bit mode
-@N: NF107 :"d:\gowin\gowin_v1.9.3.01beta_37928_20200110\ide\ipcore\mipi_rx\data\dphy_rx_top.v":25:22:25:22|Selected library: work cell: DPHY_RX_TOP view verilog as top level
-@N: NF107 :"d:\gowin\gowin_v1.9.3.01beta_37928_20200110\ide\ipcore\mipi_rx\data\dphy_rx_top.v":25:22:25:22|Selected library: work cell: DPHY_RX_TOP view verilog as top level
-

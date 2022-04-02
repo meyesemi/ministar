@@ -1,7 +1,0 @@
-D:\Gowin\Gowin_V1.9.3.01Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  D:\proj\dk_video_csi\src\fifo_top\temp\FIFO\rev_1\synwork\fifo16b_8b_comp.srs  -osyn  D:\proj\dk_video_csi\src\fifo_top\temp\FIFO\rev_1\synwork\fifo16b_8b_mult.srs  -log  D:\proj\dk_video_csi\src\fifo_top\temp\FIFO\rev_1\synlog\fifo16b_8b_multi_srs_gen.srr 
-relcom:..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.3.01Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\fifo16b_8b_comp.srs -osyn ..\synwork\fifo16b_8b_mult.srs -log ..\synlog\fifo16b_8b_multi_srs_gen.srr
-rc:0 success:1 runtime:4
-file:..\synwork\fifo16b_8b_comp.srs|io:i|time:1581501018|size:12152|exec:0|csum:8F94F35824186F7C81F19292C8544D03
-file:..\synwork\fifo16b_8b_mult.srs|io:o|time:1581501023|size:2363|exec:0|csum:
-file:..\synlog\fifo16b_8b_multi_srs_gen.srr|io:o|time:1581501023|size:1350|exec:0|csum:
-file:..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.3.01Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1578425168|size:8866816|exec:1|csum:F4563BC46C014171161B5E449A2B6574

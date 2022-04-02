@@ -1,2 +1,0 @@
-@W: CG286 :"D:\Gowin\Gowin_V1.9.2.01Beta\IDE\ipcore\I2CMASTER\data\I2C_MASTER.vp":495:13:495:16|Case statement has both a full_case directive and a default clause -- ignoring full_case directive.
-
