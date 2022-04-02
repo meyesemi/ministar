@@ -1,0 +1,1640 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: D:\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: EYE-02
+
+Implementation : rev_1
+
+#### START OF AREA REPORT #####[
+
+Part:			GW2A_18CPBGA484-8 (GoWin)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   video_top   ########
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     3049               100 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_top:	3049 (40.70 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          3194               100 %                
+MUX2_LUT5     102                100 %                
+MUX2_LUT6     43                 100 %                
+ALU           577                100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block video_top:	3916 (52.27 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     19                 100 %                
+============================================================
+Total MEMORY ELEMENTS in the block video_top:	19 (0.25 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   CSI2RAW8   ########
+Instance path:   video_top.CSI2RAW8                           
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     455                14.9 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_top.CSI2RAW8:	455 (6.07 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          400                12.5 %               
+MUX2_LUT5     45                 44.1 %               
+MUX2_LUT6     20                 46.5 %               
+ALU           85                 14.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block video_top.CSI2RAW8:	550 (7.34 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  5.26 %               
+============================================================
+Total MEMORY ELEMENTS in the block video_top.CSI2RAW8:	1 (0.01 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   DPHY_RX_TOP   ########
+Instance path:   CSI2RAW8.DPHY_RX_TOP                            
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     267                8.76 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block CSI2RAW8.DPHY_RX_TOP:	267 (3.56 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          238                7.45 %               
+MUX2_LUT5     38                 37.3 %               
+MUX2_LUT6     18                 41.9 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CSI2RAW8.DPHY_RX_TOP:	294 (3.92 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~DPHY_RX\.DPHY_RX_TOP_\    ########
+Instance path:   DPHY_RX_TOP.\\\~DPHY_RX\.DPHY_RX_TOP_\                          
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     267                8.76 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block DPHY_RX_TOP.\\\~DPHY_RX\.DPHY_RX_TOP_\ :	267 (3.56 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          238                7.45 %               
+MUX2_LUT5     38                 37.3 %               
+MUX2_LUT6     18                 41.9 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block DPHY_RX_TOP.\\\~DPHY_RX\.DPHY_RX_TOP_\ :	294 (3.92 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\    ########
+Instance path:   \\\~DPHY_RX\.DPHY_RX_TOP_\ .\\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\          
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     263                8.63 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~DPHY_RX\.DPHY_RX_TOP_\ .\\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ :	263 (3.51 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          227                7.11 %               
+MUX2_LUT5     38                 37.3 %               
+MUX2_LUT6     18                 41.9 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block \\\~DPHY_RX\.DPHY_RX_TOP_\ .\\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ :	283 (3.78 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~lane_aligner\.DPHY_RX_TOP__2s\    ########
+Instance path:   \\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ .\\\~lane_aligner\.DPHY_RX_TOP__2s\ 
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     121                3.97 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ .\\\~lane_aligner\.DPHY_RX_TOP__2s\ :	121 (1.62 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     66                 2.07 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ .\\\~lane_aligner\.DPHY_RX_TOP__2s\ :	66 (0.88 % Utilization)
+
+-------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~lane_align_FIFO\.DPHY_RX_TOP__1\    ########
+Instance path:   \\\~lane_aligner\.DPHY_RX_TOP__2s\ .\\\~lane_align_FIFO\.DPHY_RX_TOP__1\  
+===========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     33                 1.08 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~lane_aligner\.DPHY_RX_TOP__2s\ .\\\~lane_align_FIFO\.DPHY_RX_TOP__1\ :	33 (0.44 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     25                 0.7830 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~lane_aligner\.DPHY_RX_TOP__2s\ .\\\~lane_align_FIFO\.DPHY_RX_TOP__1\ :	25 (0.33 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~lane_align_FIFO\.DPHY_RX_TOP_\    ########
+Instance path:   \\\~lane_aligner\.DPHY_RX_TOP__2s\ .\\\~lane_align_FIFO\.DPHY_RX_TOP_\  
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     33                 1.08 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~lane_aligner\.DPHY_RX_TOP__2s\ .\\\~lane_align_FIFO\.DPHY_RX_TOP_\ :	33 (0.44 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     24                 0.7510 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~lane_aligner\.DPHY_RX_TOP__2s\ .\\\~lane_align_FIFO\.DPHY_RX_TOP_\ :	24 (0.32 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~word_aligner\.DPHY_RX_TOP__1\    ########
+Instance path:   \\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ .\\\~word_aligner\.DPHY_RX_TOP__1\ 
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     71                 2.33 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ .\\\~word_aligner\.DPHY_RX_TOP__1\ :	71 (0.95 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          80                 2.5 %                
+MUX2_LUT5     19                 18.6 %               
+MUX2_LUT6     9                  20.9 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block \\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ .\\\~word_aligner\.DPHY_RX_TOP__1\ :	108 (1.44 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~word_aligner\.DPHY_RX_TOP_\    ########
+Instance path:   \\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ .\\\~word_aligner\.DPHY_RX_TOP_\ 
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     71                 2.33 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ .\\\~word_aligner\.DPHY_RX_TOP_\ :	71 (0.95 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          80                 2.5 %                
+MUX2_LUT5     19                 18.6 %               
+MUX2_LUT6     9                  20.9 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block \\\~Aligner\.DPHY_RX_TOP__2s_1s_1s\ .\\\~word_aligner\.DPHY_RX_TOP_\ :	108 (1.44 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~IO_Ctrl_RX\.DPHY_RX_TOP_\    ########
+Instance path:   \\\~DPHY_RX\.DPHY_RX_TOP_\ .\\\~IO_Ctrl_RX\.DPHY_RX_TOP_\          
+====================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     9                  0.2820 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~DPHY_RX\.DPHY_RX_TOP_\ .\\\~IO_Ctrl_RX\.DPHY_RX_TOP_\ :	9 (0.12 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~idesx4\.DPHY_RX_TOP_\    ########
+Instance path:   \\\~DPHY_RX\.DPHY_RX_TOP_\ .\\\~idesx4\.DPHY_RX_TOP_\          
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     4                  0.1310 %             
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~DPHY_RX\.DPHY_RX_TOP_\ .\\\~idesx4\.DPHY_RX_TOP_\ :	4 (0.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     2                  0.06260 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~DPHY_RX\.DPHY_RX_TOP_\ .\\\~idesx4\.DPHY_RX_TOP_\ :	2 (0.03 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   control_capture_lane2_8s_2s_RAW8   ########
+Instance path:   CSI2RAW8.control_capture_lane2_8s_2s_RAW8                            
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     90                 2.95 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block CSI2RAW8.control_capture_lane2_8s_2s_RAW8:	90 (1.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          94                 2.94 %               
+MUX2_LUT5     1                  0.980 %              
+ALU           64                 11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CSI2RAW8.control_capture_lane2_8s_2s_RAW8:	159 (2.12 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   pll_8bit_2lane   ########
+Instance path:   CSI2RAW8.pll_8bit_2lane                            
+====================================================================
+----------------------------------------------------------------------
+########   Utilization report for  cell:   raw8_lane2_8s_2s   ########
+Instance path:   CSI2RAW8.raw8_lane2_8s_2s                            
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     96                 3.15 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block CSI2RAW8.raw8_lane2_8s_2s:	96 (1.28 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          65                 2.04 %               
+MUX2_LUT5     6                  5.88 %               
+MUX2_LUT6     2                  4.65 %               
+ALU           21                 3.64 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block CSI2RAW8.raw8_lane2_8s_2s:	94 (1.25 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  5.26 %               
+============================================================
+Total MEMORY ELEMENTS in the block CSI2RAW8.raw8_lane2_8s_2s:	1 (0.01 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   fifo16b_8b   ########
+Instance path:   raw8_lane2_8s_2s.fifo16b_8b                    
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     95                 3.12 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block raw8_lane2_8s_2s.fifo16b_8b:	95 (1.27 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          65                 2.04 %               
+MUX2_LUT5     6                  5.88 %               
+MUX2_LUT6     2                  4.65 %               
+ALU           21                 3.64 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block raw8_lane2_8s_2s.fifo16b_8b:	94 (1.25 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  5.26 %               
+============================================================
+Total MEMORY ELEMENTS in the block raw8_lane2_8s_2s.fifo16b_8b:	1 (0.01 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~fifo\.fifo16b_8b_\    ########
+Instance path:   fifo16b_8b.\\\~fifo\.fifo16b_8b_\                           
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     95                 3.12 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block fifo16b_8b.\\\~fifo\.fifo16b_8b_\ :	95 (1.27 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          65                 2.04 %               
+MUX2_LUT5     6                  5.88 %               
+MUX2_LUT6     2                  4.65 %               
+ALU           21                 3.64 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block fifo16b_8b.\\\~fifo\.fifo16b_8b_\ :	94 (1.25 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  5.26 %               
+============================================================
+Total MEMORY ELEMENTS in the block fifo16b_8b.\\\~fifo\.fifo16b_8b_\ :	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   DDR3_Memory_Interface_Top   ########
+Instance path:   video_top.DDR3_Memory_Interface_Top                           
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     1714               56.2 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_top.DDR3_Memory_Interface_Top:	1714 (22.88 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          1378               43.1 %               
+MUX2_LUT5     4                  3.92 %               
+MUX2_LUT6     1                  2.33 %               
+ALU           61                 10.6 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block video_top.DDR3_Memory_Interface_Top:	1444 (19.27 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     8                  42.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block video_top.DDR3_Memory_Interface_Top:	8 (0.11 % Utilization)
+
+-------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\    ########
+Instance path:   DDR3_Memory_Interface_Top.\\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\            
+=================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     1714               56.2 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block DDR3_Memory_Interface_Top.\\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\ :	1714 (22.88 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          1377               43.1 %               
+MUX2_LUT5     4                  3.92 %               
+MUX2_LUT6     1                  2.33 %               
+ALU           61                 10.6 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block DDR3_Memory_Interface_Top.\\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\ :	1443 (19.26 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     8                  42.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block DDR3_Memory_Interface_Top.\\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\ :	8 (0.11 % Utilization)
+
+---------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~ddr_phy_top\.DDR3_Memory_Interface_Top\    ########       
+Instance path:   \\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ 
+=========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     725                23.8 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ :	725 (9.68 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          839                26.3 %               
+MUX2_LUT5     2                  1.96 %               
+ALU           44                 7.63 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block \\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ :	885 (11.81 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     8                  42.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block \\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ :	8 (0.11 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~ddr_init\.DDR3_Memory_Interface_Top\    ########        
+Instance path:   \\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ .\\\~ddr_init\.DDR3_Memory_Interface_Top\ 
+=======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     176                5.77 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ .\\\~ddr_init\.DDR3_Memory_Interface_Top\ :	176 (2.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          304                9.52 %               
+MUX2_LUT5     2                  1.96 %               
+ALU           18                 3.12 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ .\\\~ddr_init\.DDR3_Memory_Interface_Top\ :	324 (4.32 % Utilization)
+
+---------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\    ########        
+Instance path:   \\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ 
+=========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     549                18 %                 
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ :	549 (7.33 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     488                15.3 %               
+ALU      26                 4.51 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ :	514 (6.86 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     8                  42.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block \\\~ddr_phy_top\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ :	8 (0.11 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~ddr_memmem_sync\.DDR3_Memory_Interface_Top\    ########       
+Instance path:   \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_memmem_sync\.DDR3_Memory_Interface_Top\ 
+=============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     33                 1.08 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_memmem_sync\.DDR3_Memory_Interface_Top\ :	33 (0.44 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     67                 2.1 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_memmem_sync\.DDR3_Memory_Interface_Top\ :	67 (0.89 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~ddr_phy_cmd_lane\.DDR3_Memory_Interface_Top\    ########       
+Instance path:   \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_cmd_lane\.DDR3_Memory_Interface_Top\ 
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     142                4.66 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_cmd_lane\.DDR3_Memory_Interface_Top\ :	142 (1.90 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  0.2190 %             
+ALU      2                  0.3470 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_cmd_lane\.DDR3_Memory_Interface_Top\ :	9 (0.12 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~CMD_FIFO\.DDR3_Memory_Interface_Top\    ########             
+Instance path:   \\\~ddr_phy_cmd_lane\.DDR3_Memory_Interface_Top\ .\\\~CMD_FIFO\.DDR3_Memory_Interface_Top\ 
+============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     66                 2.16 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_cmd_lane\.DDR3_Memory_Interface_Top\ .\\\~CMD_FIFO\.DDR3_Memory_Interface_Top\ :	66 (0.88 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.03130 %            
+ALU      2                  0.3470 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_cmd_lane\.DDR3_Memory_Interface_Top\ .\\\~CMD_FIFO\.DDR3_Memory_Interface_Top\ :	3 (0.04 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~ddr_phy_cmd_io\.DDR3_Memory_Interface_Top\    ########             
+Instance path:   \\\~ddr_phy_cmd_lane\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_cmd_io\.DDR3_Memory_Interface_Top\ 
+==================================================================================================================
+-----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\    ########       
+Instance path:   \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\ 
+=================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     157                5.15 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\ :	157 (2.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     220                6.89 %               
+ALU      3                  0.520 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\ :	223 (2.98 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~IN_FIFO\.DDR3_Memory_Interface_Top_0\    ########                
+Instance path:   \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\ .\\\~IN_FIFO\.DDR3_Memory_Interface_Top_0\ 
+================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     64                 2.1 %                
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\ .\\\~IN_FIFO\.DDR3_Memory_Interface_Top_0\ :	64 (0.85 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     64                 2 %                  
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\ .\\\~IN_FIFO\.DDR3_Memory_Interface_Top_0\ :	64 (0.85 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~OUT_FIFO\.DDR3_Memory_Interface_Top_0\    ########                
+Instance path:   \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\ .\\\~OUT_FIFO\.DDR3_Memory_Interface_Top_0\ 
+=================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     88                 2.89 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\ .\\\~OUT_FIFO\.DDR3_Memory_Interface_Top_0\ :	88 (1.17 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     90                 2.82 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\ .\\\~OUT_FIFO\.DDR3_Memory_Interface_Top_0\ :	90 (1.20 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~ddr_phy_data_io\.DDR3_Memory_Interface_Top_0\    ########                
+Instance path:   \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top_0\ .\\\~ddr_phy_data_io\.DDR3_Memory_Interface_Top_0\ 
+========================================================================================================================
+---------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\    ########       
+Instance path:   \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ 
+===============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     151                4.95 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ :	151 (2.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     156                4.88 %               
+ALU      3                  0.520 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ :	159 (2.12 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     8                  42.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ :	8 (0.11 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~IN_FIFO\.DDR3_Memory_Interface_Top\    ########              
+Instance path:   \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ .\\\~IN_FIFO\.DDR3_Memory_Interface_Top\ 
+============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     69                 2.26 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ .\\\~IN_FIFO\.DDR3_Memory_Interface_Top\ :	69 (0.92 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     69                 2.16 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ .\\\~IN_FIFO\.DDR3_Memory_Interface_Top\ :	69 (0.92 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     4                  21.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ .\\\~IN_FIFO\.DDR3_Memory_Interface_Top\ :	4 (0.05 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~OUT_FIFO\.DDR3_Memory_Interface_Top\    ########              
+Instance path:   \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ .\\\~OUT_FIFO\.DDR3_Memory_Interface_Top\ 
+=============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     77                 2.53 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ .\\\~OUT_FIFO\.DDR3_Memory_Interface_Top\ :	77 (1.03 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     79                 2.47 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ .\\\~OUT_FIFO\.DDR3_Memory_Interface_Top\ :	79 (1.05 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     4                  21.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ .\\\~OUT_FIFO\.DDR3_Memory_Interface_Top\ :	4 (0.05 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~ddr_phy_data_io\.DDR3_Memory_Interface_Top\    ########              
+Instance path:   \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_data_io\.DDR3_Memory_Interface_Top\ 
+====================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     6                  0.1880 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_data_lane\.DDR3_Memory_Interface_Top\ .\\\~ddr_phy_data_io\.DDR3_Memory_Interface_Top\ :	6 (0.08 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~fifo_ctrl\.DDR3_Memory_Interface_Top\    ########       
+Instance path:   \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~fifo_ctrl\.DDR3_Memory_Interface_Top\ 
+=======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     60                 1.97 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~fifo_ctrl\.DDR3_Memory_Interface_Top\ :	60 (0.80 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     30                 0.9390 %             
+ALU      18                 3.12 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~ddr_phy_wd\.DDR3_Memory_Interface_Top\ .\\\~fifo_ctrl\.DDR3_Memory_Interface_Top\ :	48 (0.64 % Utilization)
+
+------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~gwmc_top\.DDR3_Memory_Interface_Top\    ########       
+Instance path:   \\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\ .\\\~gwmc_top\.DDR3_Memory_Interface_Top\ 
+======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     989                32.4 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\ .\\\~gwmc_top\.DDR3_Memory_Interface_Top\ :	989 (13.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          538                16.8 %               
+MUX2_LUT5     2                  1.96 %               
+MUX2_LUT6     1                  2.33 %               
+ALU           17                 2.95 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block \\\~gw3_phy_mc\.DDR3_Memory_Interface_Top\ .\\\~gwmc_top\.DDR3_Memory_Interface_Top\ :	558 (7.45 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~gwmc_bank_ctrl\.DDR3_Memory_Interface_Top\    ########     
+Instance path:   \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_bank_ctrl\.DDR3_Memory_Interface_Top\ 
+==========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     78                 2.56 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_bank_ctrl\.DDR3_Memory_Interface_Top\ :	78 (1.04 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          223                6.98 %               
+MUX2_LUT5     2                  1.96 %               
+MUX2_LUT6     1                  2.33 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_bank_ctrl\.DDR3_Memory_Interface_Top\ :	226 (3.02 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~gwmc_cmd_buffer\.DDR3_Memory_Interface_Top\    ########     
+Instance path:   \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_cmd_buffer\.DDR3_Memory_Interface_Top\ 
+===========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     59                 1.94 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_cmd_buffer\.DDR3_Memory_Interface_Top\ :	59 (0.79 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     94                 2.94 %               
+ALU      2                  0.3470 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_cmd_buffer\.DDR3_Memory_Interface_Top\ :	96 (1.28 % Utilization)
+
+----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~gwmc_rank_ctrl\.DDR3_Memory_Interface_Top\    ########     
+Instance path:   \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_rank_ctrl\.DDR3_Memory_Interface_Top\ 
+==========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     41                 1.34 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_rank_ctrl\.DDR3_Memory_Interface_Top\ :	41 (0.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     59                 1.85 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_rank_ctrl\.DDR3_Memory_Interface_Top\ :	59 (0.79 % Utilization)
+
+--------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~gwmc_rd_data\.DDR3_Memory_Interface_Top\    ########     
+Instance path:   \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_rd_data\.DDR3_Memory_Interface_Top\ 
+========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     130                4.26 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_rd_data\.DDR3_Memory_Interface_Top\ :	130 (1.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     128                4.01 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_rd_data\.DDR3_Memory_Interface_Top\ :	128 (1.71 % Utilization)
+
+------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~gwmc_timing_ctrl\.DDR3_Memory_Interface_Top\    ########     
+Instance path:   \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_timing_ctrl\.DDR3_Memory_Interface_Top\ 
+============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     18                 0.590 %              
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_timing_ctrl\.DDR3_Memory_Interface_Top\ :	18 (0.24 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     22                 0.6890 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_timing_ctrl\.DDR3_Memory_Interface_Top\ :	22 (0.29 % Utilization)
+
+--------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~gwmc_wr_data\.DDR3_Memory_Interface_Top\    ########     
+Instance path:   \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_wr_data\.DDR3_Memory_Interface_Top\ 
+========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     163                5.35 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_wr_data\.DDR3_Memory_Interface_Top\ :	163 (2.18 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     12                 0.3760 %             
+ALU      15                 2.6 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~gwmc_top\.DDR3_Memory_Interface_Top\ .\\\~gwmc_wr_data\.DDR3_Memory_Interface_Top\ :	27 (0.36 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~fifo_sc\.DDR3_Memory_Interface_Top\    ########         
+Instance path:   \\\~gwmc_wr_data\.DDR3_Memory_Interface_Top\ .\\\~fifo_sc\.DDR3_Memory_Interface_Top\ 
+=======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     161                5.28 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block \\\~gwmc_wr_data\.DDR3_Memory_Interface_Top\ .\\\~fifo_sc\.DDR3_Memory_Interface_Top\ :	161 (2.15 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     12                 0.3760 %             
+ALU      15                 2.6 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block \\\~gwmc_wr_data\.DDR3_Memory_Interface_Top\ .\\\~fifo_sc\.DDR3_Memory_Interface_Top\ :	27 (0.36 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   DVI_TX_Top   ########
+Instance path:   video_top.DVI_TX_Top                           
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     69                 2.26 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_top.DVI_TX_Top:	69 (0.92 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          257                8.05 %               
+MUX2_LUT5     9                  8.82 %               
+MUX2_LUT6     2                  4.65 %               
+ALU           15                 2.6 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block video_top.DVI_TX_Top:	283 (3.78 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   rgb2dvi   ########
+Instance path:   DVI_TX_Top.rgb2dvi                          
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     69                 2.26 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block DVI_TX_Top.rgb2dvi:	69 (0.92 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          257                8.05 %               
+MUX2_LUT5     9                  8.82 %               
+MUX2_LUT6     2                  4.65 %               
+ALU           15                 2.6 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block DVI_TX_Top.rgb2dvi:	283 (3.78 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   TMDS8b10b_0   ########
+Instance path:   rgb2dvi.TMDS8b10b_0                             
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     23                 0.7540 %             
+======================================================
+Total SEQUENTIAL ELEMENTS in the block rgb2dvi.TMDS8b10b_0:	23 (0.31 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          96                 3.01 %               
+MUX2_LUT5     9                  8.82 %               
+MUX2_LUT6     2                  4.65 %               
+ALU           5                  0.8670 %             
+======================================================
+Total COMBINATIONAL LOGIC in the block rgb2dvi.TMDS8b10b_0:	112 (1.49 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   TMDS8b10b_1   ########
+Instance path:   rgb2dvi.TMDS8b10b_1                             
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     24                 0.7870 %             
+======================================================
+Total SEQUENTIAL ELEMENTS in the block rgb2dvi.TMDS8b10b_1:	24 (0.32 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     85                 2.66 %               
+ALU      5                  0.8670 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block rgb2dvi.TMDS8b10b_1:	90 (1.20 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   TMDS8b10b_2   ########
+Instance path:   rgb2dvi.TMDS8b10b_2                             
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     22                 0.7220 %             
+======================================================
+Total SEQUENTIAL ELEMENTS in the block rgb2dvi.TMDS8b10b_2:	22 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     76                 2.38 %               
+ALU      5                  0.8670 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block rgb2dvi.TMDS8b10b_2:	81 (1.08 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   OV5647_Controller   ########
+Instance path:   video_top.OV5647_Controller                           
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     163                5.35 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_top.OV5647_Controller:	163 (2.18 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     235                7.36 %               
+ALU      72                 12.5 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block video_top.OV5647_Controller:	307 (4.10 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  5.26 %               
+============================================================
+Total MEMORY ELEMENTS in the block video_top.OV5647_Controller:	1 (0.01 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   I2C_Interface_108_108   ########
+Instance path:   OV5647_Controller.I2C_Interface_108_108                   
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     95                 3.12 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block OV5647_Controller.I2C_Interface_108_108:	95 (1.27 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     138                4.32 %               
+ALU      8                  1.39 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block OV5647_Controller.I2C_Interface_108_108:	146 (1.95 % Utilization)
+
+----------------------------------------------------------------------
+########   Utilization report for  cell:   OV5647_Registers   ########
+Instance path:   OV5647_Controller.OV5647_Registers                   
+======================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     33                 1.08 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block OV5647_Controller.OV5647_Registers:	33 (0.44 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     28                 0.8770 %             
+ALU      32                 5.55 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block OV5647_Controller.OV5647_Registers:	60 (0.80 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  5.26 %               
+============================================================
+Total MEMORY ELEMENTS in the block OV5647_Controller.OV5647_Registers:	1 (0.01 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   TMDS_PLL   ########
+Instance path:   video_top.TMDS_PLL                           
+==============================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.03130 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block video_top.TMDS_PLL:	1 (0.01 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   bayer_rgb   ########
+Instance path:   video_top.bayer_rgb                           
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     151                4.95 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_top.bayer_rgb:	151 (2.02 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     94                 2.94 %               
+ALU      60                 10.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block video_top.bayer_rgb:	154 (2.06 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  5.26 %               
+============================================================
+Total MEMORY ELEMENTS in the block video_top.bayer_rgb:	1 (0.01 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   shift_line_11s_8s   ########
+Instance path:   bayer_rgb.shift_line_11s_8s                           
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     22                 0.7220 %             
+======================================================
+Total SEQUENTIAL ELEMENTS in the block bayer_rgb.shift_line_11s_8s:	22 (0.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     12                 0.3760 %             
+ALU      33                 5.72 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block bayer_rgb.shift_line_11s_8s:	45 (0.60 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  5.26 %               
+============================================================
+Total MEMORY ELEMENTS in the block bayer_rgb.shift_line_11s_8s:	1 (0.01 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   ram_line_11s_8s   ########
+Instance path:   shift_line_11s_8s.ram_line_11s_8s                   
+=====================================================================
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     1                  5.26 %               
+============================================================
+Total MEMORY ELEMENTS in the block shift_line_11s_8s.ram_line_11s_8s:	1 (0.01 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   video_format_detect   ########
+Instance path:   bayer_rgb.video_format_detect                           
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     34                 1.12 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block bayer_rgb.video_format_detect:	34 (0.45 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     13                 0.4070 %             
+ALU      11                 1.91 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block bayer_rgb.video_format_detect:	24 (0.32 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   key_debounceN_50000000_100000000   ########
+Instance path:   video_top.key_debounceN_50000000_100000000                           
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     35                 1.15 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_top.key_debounceN_50000000_100000000:	35 (0.47 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     64                 2 %                  
+ALU      32                 5.55 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block video_top.key_debounceN_50000000_100000000:	96 (1.28 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   key_debounceN_50000000_200000000   ########
+Instance path:   video_top.key_debounceN_50000000_200000000                           
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     36                 1.18 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_top.key_debounceN_50000000_200000000:	36 (0.48 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     56                 1.75 %               
+ALU      32                 5.55 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block video_top.key_debounceN_50000000_200000000:	88 (1.17 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   syn_gen   ########
+Instance path:   video_top.syn_gen                           
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     34                 1.12 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_top.syn_gen:	34 (0.45 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     56                 1.75 %               
+ALU      28                 4.85 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block video_top.syn_gen:	84 (1.12 % Utilization)
+
+--------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   vfb_top_8388608_1024s_1024s_28s_128s_16s_16s   ########
+Instance path:   video_top.vfb_top_8388608_1024s_1024s_28s_128s_16s_16s                           
+==================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     354                11.6 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block video_top.vfb_top_8388608_1024s_1024s_28s_128s_16s_16s:	354 (4.73 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          626                19.6 %               
+MUX2_LUT5     44                 43.1 %               
+MUX2_LUT6     20                 46.5 %               
+ALU           166                28.8 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block video_top.vfb_top_8388608_1024s_1024s_28s_128s_16s_16s:	856 (11.43 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     8                  42.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block video_top.vfb_top_8388608_1024s_1024s_28s_128s_16s_16s:	8 (0.11 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s   ########        
+Instance path:   vfb_top_8388608_1024s_1024s_28s_128s_16s_16s.vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s
+==============================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     354                11.6 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block vfb_top_8388608_1024s_1024s_28s_128s_16s_16s.vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s:	354 (4.73 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          626                19.6 %               
+MUX2_LUT5     44                 43.1 %               
+MUX2_LUT6     20                 46.5 %               
+ALU           166                28.8 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block vfb_top_8388608_1024s_1024s_28s_128s_16s_16s.vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s:	856 (11.43 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     8                  42.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block vfb_top_8388608_1024s_1024s_28s_128s_16s_16s.vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s:	8 (0.11 % Utilization)
+
+--------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dma_bus_arbiter_28s_128s_1_2_4_8   ########            
+Instance path:   vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s.dma_bus_arbiter_28s_128s_1_2_4_8
+==================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     6                  0.1970 %             
+======================================================
+Total SEQUENTIAL ELEMENTS in the block vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s.dma_bus_arbiter_28s_128s_1_2_4_8:	6 (0.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          305                9.55 %               
+MUX2_LUT5     1                  0.980 %              
+======================================================
+Total COMBINATIONAL LOGIC in the block vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s.dma_bus_arbiter_28s_128s_1_2_4_8:	306 (4.08 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s   ########            
+Instance path:   vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s.dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s
+=======================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     348                11.4 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s.dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s:	348 (4.64 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          321                10.1 %               
+MUX2_LUT5     43                 42.2 %               
+MUX2_LUT6     20                 46.5 %               
+ALU           166                28.8 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s.dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s:	550 (7.34 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     8                  42.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s.dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s:	8 (0.11 % Utilization)
+
+-------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dma_frame_ctrl_8388608_28s   ########                 
+Instance path:   dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_frame_ctrl_8388608_28s
+=================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     18                 0.590 %              
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_frame_ctrl_8388608_28s:	18 (0.24 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     4                  0.1250 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_frame_ctrl_8388608_28s:	4 (0.05 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s   ########                 
+Instance path:   dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s
+==========================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     166                5.44 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s:	166 (2.22 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          193                6.04 %               
+MUX2_LUT5     38                 37.3 %               
+MUX2_LUT6     18                 41.9 %               
+ALU           91                 15.8 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s:	340 (4.54 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     4                  21.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s:	4 (0.05 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   fifo_dma_read_128_16   ########               
+Instance path:   dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s.fifo_dma_read_128_16
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     102                3.35 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s.fifo_dma_read_128_16:	102 (1.36 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          133                4.16 %               
+MUX2_LUT5     38                 37.3 %               
+MUX2_LUT6     18                 41.9 %               
+ALU           43                 7.45 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s.fifo_dma_read_128_16:	232 (3.10 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     4                  21.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s.fifo_dma_read_128_16:	4 (0.05 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~fifo\.fifo_dma_read_128_16_\    ########
+Instance path:   fifo_dma_read_128_16.\\\~fifo\.fifo_dma_read_128_16_\                 
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     102                3.35 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block fifo_dma_read_128_16.\\\~fifo\.fifo_dma_read_128_16_\ :	102 (1.36 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          133                4.16 %               
+MUX2_LUT5     38                 37.3 %               
+MUX2_LUT6     18                 41.9 %               
+ALU           43                 7.45 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block fifo_dma_read_128_16.\\\~fifo\.fifo_dma_read_128_16_\ :	232 (3.10 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     4                  21.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block fifo_dma_read_128_16.\\\~fifo\.fifo_dma_read_128_16_\ :	4 (0.05 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s   ########                 
+Instance path:   dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s
+==========================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     164                5.38 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s:	164 (2.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          124                3.88 %               
+MUX2_LUT5     5                  4.9 %                
+MUX2_LUT6     2                  4.65 %               
+ALU           75                 13 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s:	206 (2.75 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     4                  21.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s.dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s:	4 (0.05 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   fifo_dma_write_16_128   ########               
+Instance path:   dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s.fifo_dma_write_16_128
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     106                3.48 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s.fifo_dma_write_16_128:	106 (1.41 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          83                 2.6 %                
+MUX2_LUT5     5                  4.9 %                
+MUX2_LUT6     2                  4.65 %               
+ALU           43                 7.45 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s.fifo_dma_write_16_128:	133 (1.78 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     4                  21.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s.fifo_dma_write_16_128:	4 (0.05 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   \\\~fifo\.fifo_dma_write_16_128_\    ########
+Instance path:   fifo_dma_write_16_128.\\\~fifo\.fifo_dma_write_16_128_\                
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+REGISTERS     106                3.48 %               
+======================================================
+Total SEQUENTIAL ELEMENTS in the block fifo_dma_write_16_128.\\\~fifo\.fifo_dma_write_16_128_\ :	106 (1.41 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+LUTS          83                 2.6 %                
+MUX2_LUT5     5                  4.9 %                
+MUX2_LUT6     2                  4.65 %               
+ALU           43                 7.45 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block fifo_dma_write_16_128.\\\~fifo\.fifo_dma_write_16_128_\ :	133 (1.78 % Utilization)
+
+
+MEMORY ELEMENTS
+Name                Total elements     Utilization     Notes
+------------------------------------------------------------
+BLOCK RAMS/ROMS     4                  21.1 %               
+============================================================
+Total MEMORY ELEMENTS in the block fifo_dma_write_16_128.\\\~fifo\.fifo_dma_write_16_128_\ :	4 (0.05 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,7 @@
+D:\Gowin\Gowin_V1.9.3.01Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  D:\proj\dk_video_csi\src\frame_buffer\fifo\temp\FIFO\rev_1\synwork\fifo_dma_write_16_128_comp.srs  -osyn  D:\proj\dk_video_csi\src\frame_buffer\fifo\temp\FIFO\rev_1\synwork\fifo_dma_write_16_128_mult.srs  -log  D:\proj\dk_video_csi\src\frame_buffer\fifo\temp\FIFO\rev_1\synlog\fifo_dma_write_16_128_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.3.01Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\fifo_dma_write_16_128_comp.srs -osyn ..\synwork\fifo_dma_write_16_128_mult.srs -log ..\synlog\fifo_dma_write_16_128_multi_srs_gen.srr
+rc:0 success:1 runtime:4
+file:..\synwork\fifo_dma_write_16_128_comp.srs|io:i|time:1581495975|size:17274|exec:0|csum:35A4323F8ECE58AEF95D8779DB98EBA7
+file:..\synwork\fifo_dma_write_16_128_mult.srs|io:o|time:1581495979|size:2527|exec:0|csum:
+file:..\synlog\fifo_dma_write_16_128_multi_srs_gen.srr|io:o|time:1581495980|size:1372|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.3.01Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1578425168|size:8866816|exec:1|csum:F4563BC46C014171161B5E449A2B6574

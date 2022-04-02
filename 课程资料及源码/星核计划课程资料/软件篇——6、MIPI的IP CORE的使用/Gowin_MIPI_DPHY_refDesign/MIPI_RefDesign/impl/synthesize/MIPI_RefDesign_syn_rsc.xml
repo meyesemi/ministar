@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="DPHY_TOP" Register="81" Lut="22">
+    <SubModule name="u_plld4"/>
+    <SubModule name="u_ROM549x17" Register="10" Alu="10" Bsram="2"/>
+    <SubModule name="u_DPHY_TX_TOP" Lut="3"/>
+    <SubModule name="u_DPHY_RX_TOP" Register="942" Lut="1015" Ssram="16"/>
+</Module>

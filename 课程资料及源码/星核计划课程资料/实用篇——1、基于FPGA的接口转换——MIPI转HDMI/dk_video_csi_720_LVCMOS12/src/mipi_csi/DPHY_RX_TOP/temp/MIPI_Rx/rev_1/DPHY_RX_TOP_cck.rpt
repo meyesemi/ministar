@@ -1,0 +1,130 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.09G-Beta2
+Install: D:\Gowin\Gowin_V1.9.3.01Beta_37928_20200110\SynplifyPro
+OS: Windows 6.1
+
+Hostname: GZAE-AE-CAOJIE
+
+Implementation : rev_1
+
+# Written on Wed Mar 11 16:59:49 2020
+
+##### DESIGN INFO #######################################################
+
+Top View:                "DPHY_RX_TOP"
+Constraint File(s):      (none)
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                         Ending                                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                           System                                           |     6.667            |     No paths         |     No paths         |     No paths                         
+System                                           _~idesx4_DPHY_RX_TOP_|sclk_inferred_clock        |     3.818            |     No paths         |     No paths         |     No paths                         
+_~idesx4_DPHY_RX_TOP_|sclk_inferred_clock        _~idesx4_DPHY_RX_TOP_|sclk_inferred_clock        |     3.818            |     No paths         |     No paths         |     No paths                         
+_~DPHY_RX_DPHY_RX_TOP_|HS_CLK_inferred_clock     System                                           |     1.136            |     No paths         |     No paths         |     No paths                         
+_~DPHY_RX_DPHY_RX_TOP_|HS_CLK_inferred_clock     _~DPHY_RX_DPHY_RX_TOP_|HS_CLK_inferred_clock     |     1.136            |     No paths         |     No paths         |     No paths                         
+=============================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:HS_CLK_N
+p:HS_CLK_P
+p:HS_DATA0_N
+p:HS_DATA0_P
+p:HS_DATA1_N
+p:HS_DATA1_P
+p:LP_CLK[0] (bidir end point)
+p:LP_CLK[0] (bidir start point)
+p:LP_CLK[1] (bidir end point)
+p:LP_CLK[1] (bidir start point)
+p:LP_DATA0[0] (bidir end point)
+p:LP_DATA0[0] (bidir start point)
+p:LP_DATA0[1] (bidir end point)
+p:LP_DATA0[1] (bidir start point)
+p:LP_DATA1[0] (bidir end point)
+p:LP_DATA1[0] (bidir start point)
+p:LP_DATA1[1] (bidir end point)
+p:LP_DATA1[1] (bidir start point)
+p:data_out0[0]
+p:data_out0[1]
+p:data_out0[2]
+p:data_out0[3]
+p:data_out0[4]
+p:data_out0[5]
+p:data_out0[6]
+p:data_out0[7]
+p:data_out1[0]
+p:data_out1[1]
+p:data_out1[2]
+p:data_out1[3]
+p:data_out1[4]
+p:data_out1[5]
+p:data_out1[6]
+p:data_out1[7]
+p:hs_en
+p:lp_clk_dir
+p:lp_clk_in[0]
+p:lp_clk_in[1]
+p:lp_clk_out[0]
+p:lp_clk_out[1]
+p:lp_data0_dir
+p:lp_data0_in[0]
+p:lp_data0_in[1]
+p:lp_data0_out[0]
+p:lp_data0_out[1]
+p:lp_data1_dir
+p:lp_data1_in[0]
+p:lp_data1_in[1]
+p:lp_data1_out[0]
+p:lp_data1_out[1]
+p:ready
+p:reset_n
+p:term_en
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

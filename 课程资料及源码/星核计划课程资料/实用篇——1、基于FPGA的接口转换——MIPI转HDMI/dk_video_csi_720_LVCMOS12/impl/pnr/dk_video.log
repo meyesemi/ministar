@@ -1,0 +1,38 @@
+Reading netlist file: "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\synthesize\rev_1\dk_video.vm"
+Parsing netlist file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\synthesize\rev_1\dk_video.vm" completed
+WARN  (PA1003) : Invalid parameterized value 'GW2A-18'(DEVICE) specified for instance 'pll_inst'
+WARN  (PA1003) : Invalid parameterized value 'GW2A-18'(DEVICE) specified for instance 'u_PLL'
+WARN  (PA1003) : Invalid parameterized value 'GW2A-18'(DEVICE) specified for instance 'pll_inst'
+Processing netlist completed
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1117) : Can't calculate clocks' relationship between: "dma_clk" and "CSI2RAW8_inst/pll/pll_inst/CLKOUT.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "CSI2RAW8_inst/pll/pll_inst/CLKOUT.default_gen_clk" and "dma_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "dma_clk" and "u_clkdiv/CLKOUT.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "u_clkdiv/CLKOUT.default_gen_clk" and "dma_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "I_clk" and "clk_x4i"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "I_clk" and "clk_x4"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "dma_clk" and "clk_x4i"
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Placement and routing completed
+Running timing analysis......
+[95%] Timing analysis completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\pnr\dk_video.power.html" completed
+Generate file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\pnr\dk_video.pin.html" completed
+Generate file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\pnr\dk_video.rpt.html" completed
+Generate file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\pnr\dk_video.rpt.txt" completed
+Generate file "J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\pnr\dk_video.tr.html" completed
+Mon Sep 28 15:06:45 2020
+

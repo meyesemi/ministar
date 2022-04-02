@@ -1,0 +1,27 @@
+@P:  Worst Slack : -0.672
+@P:  _~DPHY_RX_DPHY_RX_TOP_|HS_CLK_inferred_clock - Estimated Frequency : 520.0 MHz
+@P:  _~DPHY_RX_DPHY_RX_TOP_|HS_CLK_inferred_clock - Requested Frequency : 611.8 MHz
+@P:  _~DPHY_RX_DPHY_RX_TOP_|HS_CLK_inferred_clock - Estimated Period : 1.923
+@P:  _~DPHY_RX_DPHY_RX_TOP_|HS_CLK_inferred_clock - Requested Period : 1.635
+@P:  _~DPHY_RX_DPHY_RX_TOP_|HS_CLK_inferred_clock - Slack : -0.288
+@P:  _~idesx4_DPHY_RX_TOP_|eclko_inferred_clock - Estimated Frequency : NA
+@P:  _~idesx4_DPHY_RX_TOP_|eclko_inferred_clock - Requested Frequency : 150.0 MHz
+@P:  _~idesx4_DPHY_RX_TOP_|eclko_inferred_clock - Estimated Period : NA
+@P:  _~idesx4_DPHY_RX_TOP_|eclko_inferred_clock - Requested Period : 6.667
+@P:  _~idesx4_DPHY_RX_TOP_|eclko_inferred_clock - Slack : NA
+@P:  _~idesx4_DPHY_RX_TOP_|sclk_inferred_clock - Estimated Frequency : 223.1 MHz
+@P:  _~idesx4_DPHY_RX_TOP_|sclk_inferred_clock - Requested Frequency : 262.5 MHz
+@P:  _~idesx4_DPHY_RX_TOP_|sclk_inferred_clock - Estimated Period : 4.482
+@P:  _~idesx4_DPHY_RX_TOP_|sclk_inferred_clock - Requested Period : 3.810
+@P:  _~idesx4_DPHY_RX_TOP_|sclk_inferred_clock - Slack : -0.672
+@P:  System - Estimated Frequency : 1869.2 MHz
+@P:  System - Requested Frequency : 2199.3 MHz
+@P:  System - Estimated Period : 0.535
+@P:  System - Requested Period : 0.455
+@P:  System - Slack : -0.080
+@P: DPHY_RX_TOP Part : gw2a_18pbga484-8
+@P: DPHY_RX_TOP I/O primitives : 9
+@P: DPHY_RX_TOP I/O Register bits : 0
+@P: DPHY_RX_TOP Register bits (Non I/O) : 267 (1%)
+@P: DPHY_RX_TOP Total Luts : 238 of 800 (1%)
+@P:  CPU Time : 0h:00m:04s

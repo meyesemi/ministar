@@ -1,0 +1,77 @@
+One matching license found for this product: synplifypro_gowin
+
+Starting:    D:\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     D:\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+Hostname:    DESKTOP
+Date:        Wed Nov 27 10:19:15 2019
+Version:     P-2019.03G
+
+Arguments:   -product synplify_pro -batch D:/proj/dk_video/src/i2c_master/temp/I2C_MASTER/I2C_MASTER.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_gowin
+License: synplifypro_gowin node-locked 
+Licensed Vendor: gowin
+
+Running in Vendor Mode
+
+auto_infer_blackbox is not supported in current product.
+log file: "D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\i2c_master.srr"
+Running: rev_1 in foreground
+
+Running I2C_MASTER|rev_1
+
+Running Flow: compile (Compile) on I2C_MASTER|rev_1
+# Wed Nov 27 10:19:16 2019
+
+Running Flow: compile_flow (Compile Process) on I2C_MASTER|rev_1
+# Wed Nov 27 10:19:16 2019
+
+Running: compiler (Compile Input) on I2C_MASTER|rev_1
+# Wed Nov 27 10:19:16 2019
+Copied D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\synwork\i2c_master_comp.srs to D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\i2c_master.srs
+
+compiler completed
+# Wed Nov 27 10:19:20 2019
+
+Return Code: 0
+Run Time:00h:00m:04s
+
+Running: multi_srs_gen (Multi-srs Generator) on I2C_MASTER|rev_1
+# Wed Nov 27 10:19:20 2019
+
+multi_srs_gen completed
+# Wed Nov 27 10:19:20 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\synwork\i2c_master_mult.srs to D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\i2c_master.srs
+Complete: Compile Process on I2C_MASTER|rev_1
+
+Running: premap (Premap) on I2C_MASTER|rev_1
+# Wed Nov 27 10:19:20 2019
+
+premap completed
+# Wed Nov 27 10:19:25 2019
+
+Return Code: 0
+Run Time:00h:00m:05s
+Complete: Compile on I2C_MASTER|rev_1
+
+Running Flow: map (Map) on I2C_MASTER|rev_1
+# Wed Nov 27 10:19:25 2019
+
+Running: fpga_mapper (Map & Optimize) on I2C_MASTER|rev_1
+# Wed Nov 27 10:19:25 2019
+Copied D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\synwork\i2c_master_m.srm to D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\i2c_master.srm
+
+fpga_mapper completed with warnings
+# Wed Nov 27 10:19:30 2019
+
+Return Code: 1
+Run Time:00h:00m:05s
+Complete: Map on I2C_MASTER|rev_1
+Complete: Logic Synthesis on I2C_MASTER|rev_1
+exit status=0
+exit status=0
+License checkin: synplifypro_gowin

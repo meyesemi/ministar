@@ -1,0 +1,2980 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Pin Report</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 12px; }
+div#main_wrapper{ width: 100%; }
+div#content { margin-left: 350px; margin-right: 30px; }
+div#catalog_wrapper {position: fixed; top: 30px; width: 350px; float: left; }
+div#catalog ul { list-style-type: none; }
+div#catalog li { text-align: left; list-style-type:circle; color: #0084ff; margin-top: 3px; margin-bottom: 3px; }
+div#catalog a { display:inline-block; text-decoration: none; color: #0084ff; font-weight: bold; padding: 3px; }
+div#catalog a:visited { color: #0084ff; }
+div#catalog a:hover { color: #fff; background: #0084ff; }
+hr { margin-top: 30px; margin-bottom: 30px; }
+h1, h3 { text-align: center; }
+h1 {margin-top: 50px; }
+table, th, td { white-space:pre; border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { padding: 5px 5px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table.summary_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.thermal_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.Configure_table td.label { width: 24%; min-width: 200px; background-color: #dee8f4; }
+table.detail_table th.label {  min-width: 8%; width: 8%; }
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="catalog_wrapper">
+<div id="catalog">
+<ul>
+<li><a href="#Message" style=" font-size: 16px;">Pin Messages</a></li>
+<!--<li><a href="#Summary" style=" font-size: 16px;">Pin Summaries</a></li>-->
+<li><a href="#Pin_Details" style=" font-size: 16px;">Pin Details</a>
+<ul>
+<li><a href="#Pinout_by_Port_Name" style=" font-size: 14px;">Pinout by Port Name</a></li>
+<li><a href="#All_Package_Pins" style=" font-size: 14px;">All Package Pins</a></li>
+</ul>
+</li>
+</ul>
+</div><!-- catalog -->
+</div><!-- catalog_wrapper -->
+<div id="content">
+<h1><a name="Message">Pin Messages</a></h1>
+<table class="summary_table">
+<tr>
+<td class="label">Report Title</td>
+<td>Gowin Pin Report</td>
+</tr>
+<tr>
+<td class="label">Design File</td>
+<td>E:\GOWIN_WORK\IP_Design\MIPI\MIPI_release_case\MIPI_DPHY_Reference_Design\MIPI_RefDesign\impl\synthesize\rev_1\MIPI_RefDesign.vm</td>
+</tr>
+<tr>
+<td class="label">Physical Constraints File</td>
+<td>E:\GOWIN_WORK\IP_Design\MIPI\MIPI_release_case\MIPI_DPHY_Reference_Design\MIPI_RefDesign\src\mipi.cst</td>
+</tr>
+<tr>
+<td class="label">Timing Constraints File</td>
+<td>E:\GOWIN_WORK\IP_Design\MIPI\MIPI_release_case\MIPI_DPHY_Reference_Design\MIPI_RefDesign\src\mipi.sdc</td>
+</tr>
+<tr>
+<td class="label">GOWIN Version</td>
+<td>V1.9.3Beta</td>
+</tr>
+<tr>
+<td class="label">Part Number</td>
+<td>GW1N-LV9PG256C5/I4</td>
+</tr>
+<tr>
+<td class="label">Created Time</td>
+<td>Mon Mar 30 11:17:39 2020
+</td>
+</tr>
+<tr>
+<td class="label">Legal Announcement</td>
+<td>Copyright (C)2014-2019 Gowin Semiconductor Corporation. All rights reserved.</td>
+</tr>
+</table>
+<h1><a name="Pin_Details">Pin Details</a></h1>
+<h2><a name="Pinout_by_Port_Name">Pinout by Port Name:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label"><b>Port Name</b></td>
+<td><b>Loc./Bank</b></td>
+<td><b>Dir.</b></td>
+<td><b>Site</b></td>
+<td><b>I/O Type</b></td>
+<td><b>Drive</b></td>
+<td><b>Pull Mode</b></td>
+<td><b>Slew Rate</b></td>
+<td><b>Clamp</b></td>
+<td><b>OpenDrain</b></td>
+<td><b>VREF</b></td>
+<td><b>BankVccio</b></td>
+</tr>
+<tr>
+<td class="label">HS_CLK_RX_P</td>
+<td>K14/0</td>
+<td>in</td>
+<td>IOT29[A]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_CLK_RX_N</td>
+<td>K15/0</td>
+<td>in</td>
+<td>IOT29[B]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA3_RX_P</td>
+<td>H14/0</td>
+<td>in</td>
+<td>IOT23[A]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA3_RX_N</td>
+<td>H16/0</td>
+<td>in</td>
+<td>IOT23[B]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA2_RX_P</td>
+<td>G15/0</td>
+<td>in</td>
+<td>IOT17[A]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA2_RX_N</td>
+<td>G14/0</td>
+<td>in</td>
+<td>IOT17[B]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA1_RX_P</td>
+<td>J16/0</td>
+<td>in</td>
+<td>IOT25[A]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA1_RX_N</td>
+<td>J14/0</td>
+<td>in</td>
+<td>IOT25[B]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA0_RX_P</td>
+<td>J15/0</td>
+<td>in</td>
+<td>IOT27[A]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA0_RX_N</td>
+<td>K16/0</td>
+<td>in</td>
+<td>IOT27[B]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">rstn</td>
+<td>B3/2</td>
+<td>in</td>
+<td>IOB12[A]</td>
+<td>LVCMOS12</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">clkx2x4</td>
+<td>A9/3</td>
+<td>in</td>
+<td>IOL9[A]</td>
+<td>LVCMOS25</td>
+<td>NA</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>1.2</td>
+</tr>
+<tr>
+<td class="label">HS_CLK_TX_P</td>
+<td>L2/2</td>
+<td>out</td>
+<td>IOB29[A]</td>
+<td>LVCMOS33D</td>
+<td>8</td>
+<td>NA</td>
+<td>FAST</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_CLK_TX_N</td>
+<td>M1/2</td>
+<td>out</td>
+<td>IOB29[B]</td>
+<td>LVCMOS33D</td>
+<td>8</td>
+<td>NA</td>
+<td>FAST</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA3_TX_P</td>
+<td>T3/2</td>
+<td>out</td>
+<td>IOB45[A]</td>
+<td>LVCMOS33D</td>
+<td>8</td>
+<td>NA</td>
+<td>FAST</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA3_TX_N</td>
+<td>R4/2</td>
+<td>out</td>
+<td>IOB45[B]</td>
+<td>LVCMOS33D</td>
+<td>8</td>
+<td>NA</td>
+<td>FAST</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA2_TX_P</td>
+<td>T2/2</td>
+<td>out</td>
+<td>IOB43[A]</td>
+<td>LVCMOS33D</td>
+<td>8</td>
+<td>NA</td>
+<td>FAST</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA2_TX_N</td>
+<td>R3/2</td>
+<td>out</td>
+<td>IOB43[B]</td>
+<td>LVCMOS33D</td>
+<td>8</td>
+<td>NA</td>
+<td>FAST</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA1_TX_P</td>
+<td>R1/2</td>
+<td>out</td>
+<td>IOB41[A]</td>
+<td>LVCMOS33D</td>
+<td>8</td>
+<td>NA</td>
+<td>FAST</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA1_TX_N</td>
+<td>P2/2</td>
+<td>out</td>
+<td>IOB41[B]</td>
+<td>LVCMOS33D</td>
+<td>8</td>
+<td>NA</td>
+<td>FAST</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA0_TX_P</td>
+<td>M3/2</td>
+<td>out</td>
+<td>IOB39[A]</td>
+<td>LVCMOS33D</td>
+<td>8</td>
+<td>NA</td>
+<td>FAST</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">HS_DATA0_TX_N</td>
+<td>N1/2</td>
+<td>out</td>
+<td>IOB39[B]</td>
+<td>LVCMOS33D</td>
+<td>8</td>
+<td>NA</td>
+<td>FAST</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>3.3</td>
+</tr>
+<tr>
+<td class="label">hactive_flag</td>
+<td>T6/1</td>
+<td>out</td>
+<td>IOR25[B]</td>
+<td>LVCMOS25</td>
+<td>8</td>
+<td>UP</td>
+<td>FAST</td>
+<td>NA</td>
+<td>OFF</td>
+<td>NA</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td class="label">probe[0]</td>
+<td>T5/1</td>
+<td>out</td>
+<td>IOR27[A]</td>
+<td>LVCMOS25</td>
+<td>8</td>
+<td>UP</td>
+<td>FAST</td>
+<td>NA</td>
+<td>OFF</td>
+<td>NA</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td class="label">probe[1]</td>
+<td>R6/1</td>
+<td>out</td>
+<td>IOR27[B]</td>
+<td>LVCMOS25</td>
+<td>8</td>
+<td>UP</td>
+<td>FAST</td>
+<td>NA</td>
+<td>OFF</td>
+<td>NA</td>
+<td>2.5</td>
+</tr>
+<tr>
+<td class="label">ready</td>
+<td>R11/1</td>
+<td>out</td>
+<td>IOR3[A]</td>
+<td>LVCMOS25</td>
+<td>8</td>
+<td>UP</td>
+<td>FAST</td>
+<td>NA</td>
+<td>OFF</td>
+<td>NA</td>
+<td>2.5</td>
+</tr>
+</table>
+<br/>
+<h2><a name="All_Package_Pins">All Package Pins:</a></h2>
+<table class="summary_table">
+<tr>
+<td class="label"><b>Loc./Bank</b></td>
+<td><b>Signal</b></td>
+<td><b>Dir.</b></td>
+<td><b>Site</b></td>
+<td><b>Io Type</b></td>
+<td><b>Pull Mode</b></td>
+<td><b>Hysteresis</b></td>
+<td><b>DiffResistor</b></td>
+<td><b>SingleResistor</b></td>
+<td><b>MIPI Input</b></td>
+<td><b>MIPI Output</b></td>
+</tr>
+<td class="label">L15/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT2[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">M16/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT5[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C15/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT5[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B16/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT6[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D16/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT9[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E14/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT9[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C16/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT10[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D15/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT10[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E16/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT13[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F15/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT13[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F14/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT14[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F16/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT14[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F13/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT15[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">G12/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT15[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F12/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT16[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">G13/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT16[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">G15/0</td>
+<td>HS_DATA2_RX_P</td>
+<td>in</td>
+<td>IOT17[A]</td>
+<td>LVCMOS33D</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">G14/0</td>
+<td>HS_DATA2_RX_N</td>
+<td>in</td>
+<td>IOT17[B]</td>
+<td>LVCMOS33D</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">G11/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT19[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">H12/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT19[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">G16/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT20[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">H15/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT20[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">H13/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT22[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">J12/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT22[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">H14/0</td>
+<td>HS_DATA3_RX_P</td>
+<td>in</td>
+<td>IOT23[A]</td>
+<td>LVCMOS33D</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">H16/0</td>
+<td>HS_DATA3_RX_N</td>
+<td>in</td>
+<td>IOT23[B]</td>
+<td>LVCMOS33D</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">J16/0</td>
+<td>HS_DATA1_RX_P</td>
+<td>in</td>
+<td>IOT25[A]</td>
+<td>LVCMOS33D</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">J14/0</td>
+<td>HS_DATA1_RX_N</td>
+<td>in</td>
+<td>IOT25[B]</td>
+<td>LVCMOS33D</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">J15/0</td>
+<td>HS_DATA0_RX_P</td>
+<td>in</td>
+<td>IOT27[A]</td>
+<td>LVCMOS33D</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">K16/0</td>
+<td>HS_DATA0_RX_N</td>
+<td>in</td>
+<td>IOT27[B]</td>
+<td>LVCMOS33D</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">H11/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT28[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">J13/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT28[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">K14/0</td>
+<td>HS_CLK_RX_P</td>
+<td>in</td>
+<td>IOT29[A]</td>
+<td>LVCMOS33D</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">K15/0</td>
+<td>HS_CLK_RX_N</td>
+<td>in</td>
+<td>IOT29[B]</td>
+<td>LVCMOS33D</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">J11/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT30[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L12/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT30[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L16/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT32[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L14/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT32[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">K13/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT34[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">K12/0</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT34[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">K11/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT36[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L13/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT36[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">M14/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT37[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">M15/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT37[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D14/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT38[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E15/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT38[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N15/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT39[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P16/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT39[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N16/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT41[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N14/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT41[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P15/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT42[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">R16/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT42[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">R12/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT46[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P13/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOT46[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D6/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB5[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E7/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB5[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A4/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB6[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C5/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB6[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A5/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB7[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B6/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB7[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A3/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB8[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B4/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB8[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D3/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB9[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB9[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB10[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB10[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB11[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB11[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B3/2</td>
+<td>rstn</td>
+<td>in</td>
+<td>IOB12[A]</td>
+<td>LVCMOS12</td>
+<td>UP</td>
+<td>NONE</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">A2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB12[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB13[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E3/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB13[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB14[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB14[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F4/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB15[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">G6/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB15[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F3/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB16[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB16[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">G5/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB17[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">G4/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB17[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">G2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB22[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">G3/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB22[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F5/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB23[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">H6/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB23[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">G1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB26[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">H2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB26[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">H4/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB27[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">J6/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB27[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">J1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB28[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">J3/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB28[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L2/2</td>
+<td>HS_CLK_TX_P</td>
+<td>out</td>
+<td>IOB29[A]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">M1/2</td>
+<td>HS_CLK_TX_N</td>
+<td>out</td>
+<td>IOB29[B]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">H3/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB30[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">H1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB30[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">J2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB31[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">K1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB31[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">H5/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB32[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">J4/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB32[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">K3/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB33[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">K2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB33[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">J5/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB34[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">K6/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB34[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB35[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L3/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB35[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">K4/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB36[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L5/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB36[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">K5/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB37[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L4/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB37[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB38[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P1/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB38[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">M3/2</td>
+<td>HS_DATA0_TX_P</td>
+<td>out</td>
+<td>IOB39[A]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">N1/2</td>
+<td>HS_DATA0_TX_N</td>
+<td>out</td>
+<td>IOB39[B]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">M2/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB40[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N3/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB40[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">R1/2</td>
+<td>HS_DATA1_TX_P</td>
+<td>out</td>
+<td>IOB41[A]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">P2/2</td>
+<td>HS_DATA1_TX_N</td>
+<td>out</td>
+<td>IOB41[B]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">T4/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB42[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P4/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB42[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T2/2</td>
+<td>HS_DATA2_TX_P</td>
+<td>out</td>
+<td>IOB43[A]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">R3/2</td>
+<td>HS_DATA2_TX_N</td>
+<td>out</td>
+<td>IOB43[B]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">R5/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB44[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P5/2</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOB44[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T3/2</td>
+<td>HS_DATA3_TX_P</td>
+<td>out</td>
+<td>IOB45[A]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">R4/2</td>
+<td>HS_DATA3_TX_N</td>
+<td>out</td>
+<td>IOB45[B]</td>
+<td>LVCMOS33D</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">B14/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL2[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A15/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL2[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F10/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL3[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D11/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL3[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B11/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL4[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A12/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL4[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C12/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL5[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B12/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL5[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B13/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL6[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A14/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL6[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A11/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL7[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C11/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL7[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D10/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL8[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E10/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL8[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A9/3</td>
+<td>clkx2x4</td>
+<td>in</td>
+<td>IOL9[A]</td>
+<td>LVCMOS25</td>
+<td>UP</td>
+<td>NONE</td>
+<td>NA</td>
+<td>OFF</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">C9/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL9[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B8/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL11[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A7/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL11[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C10/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL12[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A6/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL12[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C6/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL13[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B10/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL13[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C13/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL14[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A13/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL14[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C8/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL15[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A8/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL15[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F9/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL16[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E11/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL16[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B9/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL18[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">A10/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL18[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F8/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL20[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D9/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL20[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D8/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL21[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E9/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL21[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B7/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL22[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C7/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL22[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">F7/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL23[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E8/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL23[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">C4/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL24[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">B5/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL24[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">E6/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL25[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">D7/3</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOL25[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">R11/1</td>
+<td>ready</td>
+<td>out</td>
+<td>IOR3[A]</td>
+<td>LVCMOS25</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>OFF</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">T12/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR3[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">R13/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR4[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T14/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR4[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T15/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR5[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">R14/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR5[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P12/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR6[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T13/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR6[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">M10/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR7[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N11/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR7[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T11/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR8[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P11/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR8[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N10/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR9[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">M11/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR9[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P10/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR11[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">R10/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR11[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">M9/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR12[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L10/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR12[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">R9/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR13[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T10/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR13[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">M8/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR14[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N9/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR14[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T9/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR15[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P9/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR15[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T7/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR17[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">R8/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR17[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N8/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR18[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L9/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR18[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P8/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR20[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T8/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR20[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">M6/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR21[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L8/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR21[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">M7/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR22[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N7/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR22[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">R7/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR23[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P7/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR23[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">N6/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR24[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">L7/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR24[B]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">P6/1</td>
+<td>UNUSED</td>
+<td>-</td>
+<td>IOR25[A]</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<td class="label">T6/1</td>
+<td>hactive_flag</td>
+<td>out</td>
+<td>IOR25[B]</td>
+<td>LVCMOS25</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>OFF</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">T5/1</td>
+<td>probe[0]</td>
+<td>out</td>
+<td>IOR27[A]</td>
+<td>LVCMOS25</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>OFF</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<td class="label">R6/1</td>
+<td>probe[1]</td>
+<td>out</td>
+<td>IOR27[B]</td>
+<td>LVCMOS25</td>
+<td>UP</td>
+<td>NA</td>
+<td>NA</td>
+<td>OFF</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+</table>
+<br/>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>

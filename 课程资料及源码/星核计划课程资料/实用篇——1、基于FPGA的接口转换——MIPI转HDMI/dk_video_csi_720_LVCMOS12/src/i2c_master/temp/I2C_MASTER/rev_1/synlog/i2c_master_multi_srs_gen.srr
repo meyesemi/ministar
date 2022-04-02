@@ -1,0 +1,29 @@
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G
+Install: D:\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro
+OS: Windows 6.1
+
+Hostname: DESKTOP
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp2019q1p1, Build 307R, Built Sep 25 2019 09:21:26
+
+@N|Running in 64-bit mode
+@N: NF107 :"d:\gowin\gowin_v1.9.2.01beta\ide\ipcore\i2cmaster\data\i2c_master_top.v":4:19:4:19|Selected library: work cell: I2C_MASTER_Top view verilog as top level
+@N: NF107 :"d:\gowin\gowin_v1.9.2.01beta\ide\ipcore\i2cmaster\data\i2c_master_top.v":4:19:4:19|Selected library: work cell: I2C_MASTER_Top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 88MB peak: 88MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 27 10:19:20 2019
+
+###########################################################]

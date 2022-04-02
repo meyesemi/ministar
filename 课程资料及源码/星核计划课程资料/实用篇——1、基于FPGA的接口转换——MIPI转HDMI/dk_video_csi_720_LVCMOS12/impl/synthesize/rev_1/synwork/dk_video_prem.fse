@@ -1,0 +1,32 @@
+
+fsm_encoding {3196729673} sequential
+
+fsm_state_encoding {3196729673} 00 {00}
+
+fsm_state_encoding {3196729673} 01 {01}
+
+fsm_state_encoding {3196729673} 10 {10}
+
+fsm_registers {3196729673} {wr_ptr[1]}  {wr_ptr[0]} 
+
+fsm_encoding {3198829882} sequential
+
+fsm_state_encoding {3198829882} 00 {00}
+
+fsm_state_encoding {3198829882} 01 {01}
+
+fsm_state_encoding {3198829882} 10 {10}
+
+fsm_registers {3198829882} {rd_ptr[1]}  {rd_ptr[0]} 
+
+fsm_encoding {311113011131} sequential
+
+fsm_state_encoding {311113011131} ST_IDLE {00}
+
+fsm_state_encoding {311113011131} ST_RDY {01}
+
+fsm_state_encoding {311113011131} ST_OFF0_READ_DDR {10}
+
+fsm_state_encoding {311113011131} ST_IFF0_WRITE_DDR {11}
+
+fsm_registers {311113011131} {current_state[1]}  {current_state[0]} 

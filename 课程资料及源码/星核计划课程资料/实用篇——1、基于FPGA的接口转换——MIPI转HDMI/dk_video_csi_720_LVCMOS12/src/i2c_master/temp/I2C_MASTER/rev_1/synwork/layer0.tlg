@@ -1,0 +1,43 @@
+Selecting top level module I2C_MASTER_Top
+Running optimization stage 1 on \~I2C_Master_Byte_Ctrl.I2C_MASTER_Top  .......
+Running optimization stage 1 on \~I2C_Master_Bit_Ctrl.I2C_MASTER_Top  .......
+Running optimization stage 1 on \~i2c_master.I2C_MASTER_Top  .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.2.01Beta\IDE\ipcore\I2CMASTER\data\I2C_MASTER_TOP.v":4:19:4:19|Synthesizing module I2C_MASTER_Top in library work.
+Running optimization stage 1 on I2C_MASTER_Top .......
+Running optimization stage 2 on I2C_MASTER_Top .......
+Running optimization stage 2 on \~i2c_master.I2C_MASTER_Top  .......
+Running optimization stage 2 on \~I2C_Master_Bit_Ctrl.I2C_MASTER_Top  .......
+Extracted state machine for register c_state
+State machine has 18 reachable states with original encodings of:
+   00000000000000000
+   00000000000000001
+   00000000000000010
+   00000000000000100
+   00000000000001000
+   00000000000010000
+   00000000000100000
+   00000000001000000
+   00000000010000000
+   00000000100000000
+   00000001000000000
+   00000010000000000
+   00000100000000000
+   00001000000000000
+   00010000000000000
+   00100000000000000
+   01000000000000000
+   10000000000000000
+Running optimization stage 2 on \~I2C_Master_Byte_Ctrl.I2C_MASTER_Top  .......
+Extracted state machine for register c_state
+State machine has 6 reachable states with original encodings of:
+   00000
+   00001
+   00010
+   00100
+   01000
+   10000
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\synwork\layer0.rt.csv
+

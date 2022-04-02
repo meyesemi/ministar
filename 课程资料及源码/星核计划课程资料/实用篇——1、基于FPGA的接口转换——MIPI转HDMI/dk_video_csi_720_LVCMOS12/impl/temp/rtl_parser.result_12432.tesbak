@@ -1,0 +1,292 @@
+[
+ {
+  "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+  "InstLine" : 24,
+  "InstName" : "video_top",
+  "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+  "ModuleLine" : 24,
+  "ModuleName" : "video_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 193,
+    "InstName" : "key_debounceN_inst0",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/key_debounceN.v",
+    "ModuleLine" : 35,
+    "ModuleName" : "key_debounceN"
+   },
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 207,
+    "InstName" : "key_debounceN_inst1",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/key_debounceN.v",
+    "ModuleLine" : 35,
+    "ModuleName" : "key_debounceN"
+   },
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 236,
+    "InstName" : "pix_pll_inst",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/gowin_pll/pix_pll.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "pix_pll"
+   },
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 291,
+    "InstName" : "OV5647_Controller_inst",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/ov5647_init/OV5647_Controller.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "OV5647_Controller",
+    "SubInsts" : [
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/ov5647_init/OV5647_Controller.v",
+      "InstLine" : 83,
+      "InstName" : "Regs",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/ov5647_init/OV5647_Registers.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "OV5647_Registers"
+     },
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/ov5647_init/OV5647_Controller.v",
+      "InstLine" : 95,
+      "InstName" : "I2C",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/ov5647_init/I2C_Interface.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "I2C_Interface"
+     }
+    ]
+   },
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 303,
+    "InstName" : "CSI2RAW8_inst",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/CSI2RAW8.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "CSI2RAW8",
+    "SubInsts" : [
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/CSI2RAW8.v",
+      "InstLine" : 59,
+      "InstName" : "DPHY_RX_TOP_inst",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/DPHY_RX_TOP/DPHY_RX_TOP.v",
+      "ModuleLine" : 1590,
+      "ModuleName" : "DPHY_RX_TOP",
+      "SubInsts" : [
+       {
+        "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/DPHY_RX_TOP/DPHY_RX_TOP.v",
+        "InstLine" : 1731,
+        "InstName" : "DPHY_RX_INST",
+        "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/DPHY_RX_TOP/DPHY_RX_TOP.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~DPHY_RX.DPHY_RX_TOP_"
+       }
+      ]
+     },
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/CSI2RAW8.v",
+      "InstLine" : 97,
+      "InstName" : "u_control_capture",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/control_capture_lane2.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "control_capture_lane2"
+     },
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/CSI2RAW8.v",
+      "InstLine" : 119,
+      "InstName" : "u_raw8_lane2",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/raw8_lane2.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "raw8_lane2",
+      "SubInsts" : [
+       {
+        "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/raw8_lane2.v",
+        "InstLine" : 22,
+        "InstName" : "u_fifo16b_8b",
+        "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/fifo_top/fifo16b_8b.v",
+        "ModuleLine" : 592,
+        "ModuleName" : "fifo16b_8b",
+        "SubInsts" : [
+         {
+          "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/fifo_top/fifo16b_8b.v",
+          "InstLine" : 637,
+          "InstName" : "fifo_inst",
+          "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/fifo_top/fifo16b_8b.v",
+          "ModuleLine" : 1,
+          "ModuleName" : "~fifo.fifo16b_8b_"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/CSI2RAW8.v",
+      "InstLine" : 133,
+      "InstName" : "pll",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/mipi_csi/pll_8bit_2lane.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "pll_8bit_2lane"
+     }
+    ]
+   },
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 323,
+    "InstName" : "bayer_rgb_inst",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/bayer_rgb.v",
+    "ModuleLine" : 12,
+    "ModuleName" : "bayer_rgb",
+    "SubInsts" : [
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/bayer_rgb.v",
+      "InstLine" : 55,
+      "InstName" : "video_format_detect_inst",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/video_format_detect.v",
+      "ModuleLine" : 17,
+      "ModuleName" : "video_format_detect"
+     },
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/bayer_rgb.v",
+      "InstLine" : 129,
+      "InstName" : "shift_line_inst0",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/shift_line.v",
+      "ModuleLine" : 12,
+      "ModuleName" : "shift_line",
+      "SubInsts" : [
+       {
+        "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/shift_line.v",
+        "InstLine" : 36,
+        "InstName" : "ram_line_inst",
+        "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/ram_line.v",
+        "ModuleLine" : 12,
+        "ModuleName" : "ram_line"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 365,
+    "InstName" : "vfb_top_inst",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/frame_buffer/vfb_top.v",
+    "ModuleLine" : 26,
+    "ModuleName" : "vfb_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/frame_buffer/vfb_top.v",
+      "InstLine" : 81,
+      "InstName" : "vfb_wrapper_inst",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/frame_buffer/vfb_wrapper.vp",
+      "ModuleLine" : 1,
+      "ModuleName" : "vfb_wrapper"
+     }
+    ]
+   },
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 402,
+    "InstName" : "DDR3_Memory_Interface_Top_inst",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/ddr3_memory_interface/ddr3_memory_interface.v",
+    "ModuleLine" : 11680,
+    "ModuleName" : "DDR3_Memory_Interface_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/ddr3_memory_interface/ddr3_memory_interface.v",
+      "InstLine" : 11769,
+      "InstName" : "gw3mc_top",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/ddr3_memory_interface/ddr3_memory_interface.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~gw3_phy_mc.DDR3_Memory_Interface_Top"
+     }
+    ]
+   },
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 448,
+    "InstName" : "syn_gen_inst",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/syn_code/syn_gen.v",
+    "ModuleLine" : 13,
+    "ModuleName" : "syn_gen"
+   },
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 502,
+    "InstName" : "u_tmds_pll",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/TMDS_PLL/TMDS_PLL.v",
+    "ModuleLine" : 8,
+    "ModuleName" : "TMDS_PLL"
+   },
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/video_top.v",
+    "InstLine" : 519,
+    "InstName" : "DVI_TX_Top_inst",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/dvi_tx_top.v",
+    "ModuleLine" : 24,
+    "ModuleName" : "DVI_TX_Top",
+    "SubInsts" : [
+     {
+      "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/dvi_tx_top.v",
+      "InstLine" : 43,
+      "InstName" : "rgb2dvi_inst",
+      "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/rgb2dvi.v",
+      "ModuleLine" : 31,
+      "ModuleName" : "rgb2dvi",
+      "SubInsts" : [
+       {
+        "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/rgb2dvi.v",
+        "InstLine" : 112,
+        "InstName" : "TMDS8b10b_inst_r",
+        "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/rgb2dvi.v",
+        "ModuleLine" : 273,
+        "ModuleName" : "TMDS8b10b"
+       },
+       {
+        "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/rgb2dvi.v",
+        "InstLine" : 123,
+        "InstName" : "TMDS8b10b_inst_g",
+        "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/rgb2dvi.v",
+        "ModuleLine" : 273,
+        "ModuleName" : "TMDS8b10b"
+       },
+       {
+        "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/rgb2dvi.v",
+        "InstLine" : 134,
+        "InstName" : "TMDS8b10b_inst_b",
+        "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/rgb2dvi.v",
+        "ModuleLine" : 273,
+        "ModuleName" : "TMDS8b10b"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/testpattern.v",
+  "InstLine" : 19,
+  "InstName" : "testpattern",
+  "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/testpattern.v",
+  "ModuleLine" : 19,
+  "ModuleName" : "testpattern"
+ },
+ {
+  "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/i2c_master/i2c_master.v",
+  "InstLine" : 1112,
+  "InstName" : "I2C_MASTER_Top",
+  "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/i2c_master/i2c_master.v",
+  "ModuleLine" : 1112,
+  "ModuleName" : "I2C_MASTER_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/i2c_master/i2c_master.v",
+    "InstLine" : 1178,
+    "InstName" : "u_i2c_master",
+    "ModuleFile" : "J:/Source_bac/Gowin_leason/MiPi_to_HDMI/dk_video_csi_720_LVCMOS12/src/i2c_master/i2c_master.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~i2c_master.I2C_MASTER_Top_"
+   }
+  ]
+ }
+]

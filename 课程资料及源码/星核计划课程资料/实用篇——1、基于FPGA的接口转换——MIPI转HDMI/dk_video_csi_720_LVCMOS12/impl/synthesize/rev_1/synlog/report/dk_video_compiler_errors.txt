@@ -1,0 +1,2 @@
+@E: Can't open file D:\proj\dk_video_csi\src\mipi_csi\gowin_osc\gowin_osc.v
+

@@ -1,0 +1,10 @@
+-d J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\synthesize\rev_1\dk_video.vm
+-p GW2A-18C-PBGA484-8
+-pn GW2A-LV18PG484C8/I7
+-cst J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\dk_video.cst
+-cfg J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\pnr\device.cfg
+-sdc J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\dk_video.sdc
+-bit
+-tr
+-ph
+-timing

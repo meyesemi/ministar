@@ -1,0 +1,16 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device>gw2a55-000</Device>
+    <FileList>
+        <File path="src/DDR3_test_rst.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_syn_top.v" type="file.verilog" enable="1"/>
+        <File path="src/key_debounce.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3.cst" type="file.cst" enable="1"/>
+        <File path="src/ddr3.sdc" type="file.sdc" enable="1"/>
+        <File path="src/ddr3_memory_interface/ddr3_memory_interface.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3.gao" type="file.gao" enable="1"/>
+    </FileList>
+</Project>
