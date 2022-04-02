@@ -1,0 +1,12 @@
+-d F:\gwip_test\refDesign_sdc\DDR_PSRAM_RefDesign\new_ref_design_v1_9_5_02\Gowin_DDR3_Memory_Interface_RefDesign\DDR3_MC_PHY_1vs2_2A55K\project\impl\synthesize\rev_1\ddr3_ref_design.vm
+-p GW2A-55-PBGA484-8
+-pn GW2A-LV55PG484C8/I7
+-cst F:\gwip_test\refDesign_sdc\DDR_PSRAM_RefDesign\new_ref_design_v1_9_5_02\Gowin_DDR3_Memory_Interface_RefDesign\DDR3_MC_PHY_1vs2_2A55K\project\src\ddr3.cst
+-cfg F:\gwip_test\refDesign_sdc\DDR_PSRAM_RefDesign\new_ref_design_v1_9_5_02\Gowin_DDR3_Memory_Interface_RefDesign\DDR3_MC_PHY_1vs2_2A55K\project\impl\pnr\device.cfg
+-sdc F:\gwip_test\refDesign_sdc\DDR_PSRAM_RefDesign\new_ref_design_v1_9_5_02\Gowin_DDR3_Memory_Interface_RefDesign\DDR3_MC_PHY_1vs2_2A55K\project\src\ddr3.sdc
+-gao F:\gwip_test\refDesign_sdc\DDR_PSRAM_RefDesign\new_ref_design_v1_9_5_02\Gowin_DDR3_Memory_Interface_RefDesign\DDR3_MC_PHY_1vs2_2A55K\project\src\gao.v
+-bit
+-tr
+-ph
+-o
+-timing

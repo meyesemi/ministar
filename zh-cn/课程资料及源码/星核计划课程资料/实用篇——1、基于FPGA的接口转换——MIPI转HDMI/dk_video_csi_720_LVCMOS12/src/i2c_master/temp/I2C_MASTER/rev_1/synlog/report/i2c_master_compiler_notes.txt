@@ -1,0 +1,15 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG346 :"D:\Gowin\Gowin_V1.9.2.01Beta\IDE\ipcore\I2CMASTER\data\I2C_MASTER.vp":491:39:491:47|Read full_case directive.
+@N: CG347 :"D:\Gowin\Gowin_V1.9.2.01Beta\IDE\ipcore\I2CMASTER\data\I2C_MASTER.vp":491:49:491:61|Read a parallel_case directive.
+@N: CG346 :"D:\Gowin\Gowin_V1.9.2.01Beta\IDE\ipcore\I2CMASTER\data\I2C_MASTER.vp":495:39:495:47|Read full_case directive.
+@N: CG347 :"D:\Gowin\Gowin_V1.9.2.01Beta\IDE\ipcore\I2CMASTER\data\I2C_MASTER.vp":495:49:495:61|Read a parallel_case directive.
+@N: CG346 :"D:\Gowin\Gowin_V1.9.2.01Beta\IDE\ipcore\I2CMASTER\data\I2C_MASTER.vp":804:34:804:42|Read full_case directive.
+@N: CG347 :"D:\Gowin\Gowin_V1.9.2.01Beta\IDE\ipcore\I2CMASTER\data\I2C_MASTER.vp":804:44:804:56|Read a parallel_case directive.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.2.01Beta\IDE\ipcore\I2CMASTER\data\I2C_MASTER_TOP.v":4:19:4:19|Synthesizing module I2C_MASTER_Top in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"d:\gowin\gowin_v1.9.2.01beta\ide\ipcore\i2cmaster\data\i2c_master_top.v":4:19:4:19|Selected library: work cell: I2C_MASTER_Top view verilog as top level
+@N: NF107 :"d:\gowin\gowin_v1.9.2.01beta\ide\ipcore\i2cmaster\data\i2c_master_top.v":4:19:4:19|Selected library: work cell: I2C_MASTER_Top view verilog as top level
+

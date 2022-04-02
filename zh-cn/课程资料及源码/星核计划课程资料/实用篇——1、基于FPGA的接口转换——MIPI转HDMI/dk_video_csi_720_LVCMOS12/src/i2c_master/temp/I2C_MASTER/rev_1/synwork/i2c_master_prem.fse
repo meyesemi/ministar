@@ -1,0 +1,56 @@
+
+fsm_encoding {877517752} onehot
+
+fsm_state_encoding {877517752} ST_IDLE {000001}
+
+fsm_state_encoding {877517752} ST_START {000010}
+
+fsm_state_encoding {877517752} ST_READ {000100}
+
+fsm_state_encoding {877517752} ST_WRITE {001000}
+
+fsm_state_encoding {877517752} ST_ACK {010000}
+
+fsm_state_encoding {877517752} ST_STOP {100000}
+
+fsm_registers {877517752} {c_state[5]}  {c_state[4]}  {c_state[3]}  {c_state[2]}  {c_state[1]}  {c_state[0]} 
+
+fsm_encoding {847014701} onehot
+
+fsm_state_encoding {847014701} idle {000000000000000001}
+
+fsm_state_encoding {847014701} start_a {000000000000000010}
+
+fsm_state_encoding {847014701} start_b {000000000000000100}
+
+fsm_state_encoding {847014701} start_c {000000000000001000}
+
+fsm_state_encoding {847014701} start_d {000000000000010000}
+
+fsm_state_encoding {847014701} start_e {000000000000100000}
+
+fsm_state_encoding {847014701} stop_a {000000000001000000}
+
+fsm_state_encoding {847014701} stop_b {000000000010000000}
+
+fsm_state_encoding {847014701} stop_c {000000000100000000}
+
+fsm_state_encoding {847014701} stop_d {000000001000000000}
+
+fsm_state_encoding {847014701} rd_a {000000010000000000}
+
+fsm_state_encoding {847014701} rd_b {000000100000000000}
+
+fsm_state_encoding {847014701} rd_c {000001000000000000}
+
+fsm_state_encoding {847014701} rd_d {000010000000000000}
+
+fsm_state_encoding {847014701} wr_a {000100000000000000}
+
+fsm_state_encoding {847014701} wr_b {001000000000000000}
+
+fsm_state_encoding {847014701} wr_c {010000000000000000}
+
+fsm_state_encoding {847014701} wr_d {100000000000000000}
+
+fsm_registers {847014701} {c_state[17]}  {c_state[16]}  {c_state[15]}  {c_state[14]}  {c_state[13]}  {c_state[12]}  {c_state[11]}  {c_state[10]}  {c_state[9]}  {c_state[8]}  {c_state[7]}  {c_state[6]}  {c_state[5]}  {c_state[4]}  {c_state[3]}  {c_state[2]}  {c_state[1]}  {c_state[0]} 

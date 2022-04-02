@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the optimization information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="3" name="Optimizations Summary">
+<parameter tooltip="Non-gated/non-generated clock trees / Gated/generated clock trees" name="Combined Clock Conversion">
+<data>15 / 1</data>
+<report_link name="more">
+<data>J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\impl\synthesize\rev_1\synlog\report\dk_video_premap_combined_clk.rpt</data>
+<title>START OF CLOCK OPTIMIZATION REPORT</title>
+</report_link>
+</parameter>
+</report_table>

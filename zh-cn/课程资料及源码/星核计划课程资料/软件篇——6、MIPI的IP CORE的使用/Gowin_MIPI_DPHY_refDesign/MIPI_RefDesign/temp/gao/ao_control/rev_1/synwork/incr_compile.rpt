@@ -1,0 +1,40 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03G-1-Beta1
+Install: E:\Gowin\Gowin_V1.9.3Beta_37257_win\SynplifyPro
+OS: Windows 6.1
+
+Hostname: GW-SW-001
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp2019q1p1, Build 391R, Built Dec  3 2019 09:16:34
+
+Modified Files: 8
+FID:  path (prevtimestamp, timestamp)
+0        E:\GOWIN_WORK\IP_Design\MIPI\MIPI_release_case\MIPI_DPHY_Reference_Design\MIPI_RefDesign\temp\gao\ao_control\gw_con_parameter.v (N/A, 2020-03-26 10:11:44)
+1        E:\GOWIN_WORK\IP_Design\MIPI\MIPI_release_case\MIPI_DPHY_Reference_Design\MIPI_RefDesign\temp\gao\ao_control\gw_con_top_define.v (N/A, 2020-03-26 10:11:44)
+2        E:\Gowin\Gowin_V1.9.3Beta_37257_win\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v (N/A, 2019-12-17 16:54:36)
+3        E:\Gowin\Gowin_V1.9.3Beta_37257_win\SynplifyPro\lib\generic\gw1n.v (N/A, 2019-12-06 03:09:16)
+4        E:\Gowin\Gowin_V1.9.3Beta_37257_win\SynplifyPro\lib\vlog\hypermods.v (N/A, 2019-12-04 01:13:52)
+5        E:\Gowin\Gowin_V1.9.3Beta_37257_win\SynplifyPro\lib\vlog\scemi_objects.v (N/A, 2019-12-04 01:13:52)
+6        E:\Gowin\Gowin_V1.9.3Beta_37257_win\SynplifyPro\lib\vlog\scemi_pipes.svh (N/A, 2019-12-04 01:13:52)
+7        E:\Gowin\Gowin_V1.9.3Beta_37257_win\SynplifyPro\lib\vlog\umr_capim.v (N/A, 2019-12-04 01:13:52)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+0        work.gw_con_top.verilog may have changed because the following files changed:
+                        E:\Gowin\Gowin_V1.9.3Beta_37257_win\IDE\data\ipcores\GAO\GW_CON\gw_con_top.v (N/A, 2019-12-17 16:54:36) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 0
+FID:  path (timestamp)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

@@ -1,0 +1,45 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, DPHY_TOP, 0h:00m:00s,    107 MB
+work, DPHY_RX_TOP, 0h:00m:00s,    107 MB
+work, \~DPHY_RX.DPHY_RX_TOP_ , 0h:00m:00s,    107 MB
+work, \~Aligner.DPHY_RX_TOP__4s_1s_1s , 0h:00m:00s,    107 MB
+work, \~lane_aligner.DPHY_RX_TOP__4s , 0h:00m:00s,    107 MB
+work, \~lane_align_FIFO.DPHY_RX_TOP__5 , 0h:00m:00s,    107 MB
+work, \~lane_align_FIFO.DPHY_RX_TOP__4 , 0h:00m:00s,    107 MB
+work, \~lane_align_FIFO.DPHY_RX_TOP__3 , 0h:00m:00s,    107 MB
+work, \~lane_align_FIFO.DPHY_RX_TOP_ , 0h:00m:00s,    107 MB
+work, RAM16SDP4, 0h:00m:00s,    107 MB
+work, DFFE, 0h:00m:00s,    107 MB
+work, \~word_aligner.DPHY_RX_TOP__6_2 , 0h:00m:00s,    107 MB
+work, \~word_aligner.DPHY_RX_TOP__6_1 , 0h:00m:00s,    107 MB
+work, \~word_aligner.DPHY_RX_TOP__6_0 , 0h:00m:00s,    107 MB
+work, \~word_aligner.DPHY_RX_TOP__6 , 0h:00m:00s,    107 MB
+work, DFFC, 0h:00m:00s,    107 MB
+work, LUT3, 0h:00m:00s,    107 MB
+work, LUT4, 0h:00m:00s,    107 MB
+work, MUX2_LUT7, 0h:00m:00s,    107 MB
+work, MUX2_LUT6, 0h:00m:00s,    107 MB
+work, MUX2_LUT5, 0h:00m:00s,    107 MB
+work, \~idesx8.DPHY_RX_TOP_ , 0h:00m:00s,    107 MB
+work, IDES16, 0h:00m:00s,    107 MB
+work, DHCEN, 0h:00m:00s,    107 MB
+work, IODELAY, 0h:00m:00s,    107 MB
+work, DFFPE, 0h:00m:00s,    107 MB
+work, DFFCE, 0h:00m:00s,    107 MB
+work, LUT2, 0h:00m:00s,    107 MB
+work, LUT1, 0h:00m:00s,    107 MB
+work, ELVDS_IBUF, 0h:00m:00s,    107 MB
+work, DPHY_TX_TOP, 0h:00m:00s,    107 MB
+work, \~DPHY_TX.DPHY_TX_TOP_ , 0h:00m:00s,    107 MB
+work, \~oserx8.DPHY_TX_TOP_ , 0h:00m:00s,    107 MB
+work, OSER16, 0h:00m:00s,    107 MB
+work, CLKDIV, 0h:00m:00s,    107 MB
+work, ELVDS_TBUF, 0h:00m:00s,    107 MB
+work, INV, 0h:00m:00s,    107 MB
+work, \~pllx8.DPHY_TX_TOP_ , 0h:00m:00s,    107 MB
+work, VCC, 0h:00m:00s,    107 MB
+work, GND, 0h:00m:00s,    107 MB
+work, GSR, 0h:00m:00s,    107 MB
+work, ROM549x17, 0h:00m:00s,    107 MB
+work, GW_PLL, 0h:00m:00s,    107 MB
+work, PLL, 0h:00m:00s,    107 MB

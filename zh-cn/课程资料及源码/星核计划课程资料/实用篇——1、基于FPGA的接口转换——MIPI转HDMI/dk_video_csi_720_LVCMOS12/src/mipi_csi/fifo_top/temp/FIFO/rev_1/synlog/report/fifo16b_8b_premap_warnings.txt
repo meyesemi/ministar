@@ -1,0 +1,2 @@
+@W: BN117 :"d:\gowin\gowin_v1.9.3.01beta\ide\ipcore\fifo\data\fifo_top.v":114:28:114:36|Instance fifo_inst of partition view:work.\\\~fifo\.fifo16b_8b\ (verilog) has no references to its outputs; instance not removed. 
+@W: BN117 :"d:\gowin\gowin_v1.9.3.01beta\ide\ipcore\fifo\data\fifo_top.v":114:28:114:36|Instance fifo_inst of partition view:work.\\\~fifo\.fifo16b_8b\ (verilog) has no references to its outputs; instance not removed. 

@@ -1,0 +1,7 @@
+D:\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\syn_nfilter.exe  -link  -multisrs  D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\synwork\i2c_master_comp.srs  -osyn  D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\synwork\i2c_master_mult.srs  -log  D:\proj\dk_video\src\i2c_master\temp\I2C_MASTER\rev_1\synlog\i2c_master_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\syn_nfilter.exe -link -multisrs ..\synwork\i2c_master_comp.srs -osyn ..\synwork\i2c_master_mult.srs -log ..\synlog\i2c_master_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\i2c_master_comp.srs|io:i|time:1574821159|size:57484|exec:0|csum:C4B35033011CC520FA1833D8C19F5020
+file:..\synwork\i2c_master_mult.srs|io:o|time:1574821160|size:2377|exec:0|csum:
+file:..\synlog\i2c_master_multi_srs_gen.srr|io:o|time:1574821160|size:1366|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Gowin\Gowin_V1.9.2.01Beta\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1569428746|size:8840192|exec:1|csum:53D4B99CD3CB87F879FC8DA558113E33

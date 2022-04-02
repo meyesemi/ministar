@@ -1,0 +1,63 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\key_debounceN.v":35:7:35:19|Synthesizing module key_debounceN in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\key_debounceN.v":77:15:77:17|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\key_debounceN.v":92:22:92:31|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\key_debounceN.v":104:22:104:31|Removing redundant assignment.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\key_debounceN.v":35:7:35:19|Synthesizing module key_debounceN in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro\lib\generic\gw2a.v":2339:7:2339:9|Synthesizing module PLL in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\gowin_pll\pix_pll.v":8:7:8:13|Synthesizing module pix_pll in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":1:7:1:22|Synthesizing module OV5647_Registers in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":49:20:49:27|Removing redundant assignment.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\I2C_Interface.v":14:7:14:19|Synthesizing module I2C_Interface in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\I2C_Interface.v":183:26:183:32|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\I2C_Interface.v":184:17:184:23|Removing redundant assignment.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Controller.v":1:7:1:23|Synthesizing module OV5647_Controller in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Controller.v":38:13:38:15|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Controller.v":51:16:51:19|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Controller.v":62:16:62:21|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Controller.v":73:16:73:21|Removing redundant assignment.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro\lib\generic\gw2a.v":2406:7:2406:9|Synthesizing module GSR in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro\lib\generic\gw2a.v":360:7:360:9|Synthesizing module INV in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.6.02Beta\SynplifyPro\lib\generic\gw2a.v":380:7:380:11|Synthesizing module IOBUF in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":5095:7:5095:17|Synthesizing module DPHY_RX_TOP in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\mipi_csi\control_capture_lane2.v":1:7:1:27|Synthesizing module control_capture_lane2 in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\mipi_csi\control_capture_lane2.v":62:9:62:11|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\mipi_csi\control_capture_lane2.v":113:14:113:21|Removing redundant assignment.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\mipi_csi\fifo_top\fifo16b_8b.v":1612:7:1612:16|Synthesizing module fifo16b_8b in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\mipi_csi\raw8_lane2.v":2:7:2:16|Synthesizing module raw8_lane2 in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\mipi_csi\pll_8bit_2lane.v":9:7:9:20|Synthesizing module pll_8bit_2lane in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\mipi_csi\CSI2RAW8.v":1:7:1:14|Synthesizing module CSI2RAW8 in library work.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\video_format_detect.v":17:7:17:25|Synthesizing module video_format_detect in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\video_format_detect.v":67:14:67:17|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\video_format_detect.v":77:17:77:23|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\video_format_detect.v":96:26:96:36|Removing redundant assignment.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\ram_line.v":12:7:12:14|Synthesizing module ram_line in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\ram_line.v":40:7:40:7|Removing redundant assignment.
+@N: CL134 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\ram_line.v":29:0:29:5|Found RAM ram, depth=2048, width=8
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\shift_line.v":12:7:12:16|Synthesizing module shift_line in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\shift_line.v":55:20:55:31|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\shift_line.v":65:21:65:33|Removing redundant assignment.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\bayer_rgb.v":12:7:12:15|Synthesizing module bayer_rgb in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\bayer_rgb.v":103:16:103:21|Removing redundant assignment.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\bayer_to_rgb\bayer_rgb.v":119:16:119:21|Removing redundant assignment.
+@N: CG364 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\frame_buffer\vfb_top.v":26:7:26:13|Synthesizing module vfb_top in library work.
+@N: CG179 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\syn_code\syn_gen.v":66:13:66:17|Removing redundant assignment.
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\video_top.v":27:22:27:30|Input I_clk_27m is unused.
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\video_top.v":30:19:30:23|Input I_sw1 is unused.
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ddr3_memory_interface\ddr3_memory_interface.v":30311:6:30311:12|Input ref_req is unused.
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\mipi_csi\control_capture_lane2.v":20:19:20:36|Input line_length_detect is unused.
+@N: CL159 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\mipi_csi\control_capture_lane2.v":21:19:21:29|Input line_length is unused.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":42:4:42:9|Register bit wait_cnt[23] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":42:4:42:9|Register bit wait_cnt[24] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":42:4:42:9|Register bit wait_cnt[25] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":42:4:42:9|Register bit wait_cnt[26] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":42:4:42:9|Register bit wait_cnt[27] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":42:4:42:9|Register bit wait_cnt[28] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":42:4:42:9|Register bit wait_cnt[29] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":42:4:42:9|Register bit wait_cnt[30] is always 0.
+@N: CL189 :"J:\Source_bac\Gowin_board\GW2A_LV18PG484\test_prj\dk_video_csi_720_LVCMOS12\src\ov5647_init\OV5647_Registers.v":42:4:42:9|Register bit wait_cnt[31] is always 0.
+@N|Running in 64-bit mode
+

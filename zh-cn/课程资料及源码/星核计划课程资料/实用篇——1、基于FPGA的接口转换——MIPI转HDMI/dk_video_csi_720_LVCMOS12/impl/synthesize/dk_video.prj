@@ -1,0 +1,64 @@
+# project files
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/video_top.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/key_debounceN.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/gowin_pll/pix_pll.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/testpattern.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/i2c_master/i2c_master.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/ddr3_memory_interface/ddr3_memory_interface.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/frame_buffer/vfb_defines.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/frame_buffer/vfb_top.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/syn_code/syn_gen.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/ov5647_init/I2C_Interface.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/ov5647_init/OV5647_Controller.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/ov5647_init/OV5647_Registers.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/mipi_csi/control_capture_lane2.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/mipi_csi/DPHY_RX_TOP/DPHY_RX_TOP.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/frame_buffer/fifo/fifo_dma_read_128_16.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/frame_buffer/fifo/fifo_dma_write_16_128.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/mipi_csi/CSI2RAW8.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/mipi_csi/pll_8bit_2lane.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/mipi_csi/fifo_top/fifo16b_8b.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/mipi_csi/raw8_lane2.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/bayer_rgb.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/ram_line.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/shift_line.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/bayer_to_rgb/video_format_detect.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/frame_buffer/vfb_wrapper.vp"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/TMDS_PLL/TMDS_PLL.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/dvi_tx_defines.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/dvi_tx_top.v"
+add_file -verilog "J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/dvi_tx_top/rgb2dvi.v"
+
+# implementation: "rev_1"
+impl -add rev_1 -type fpga
+
+# device options
+set_option -technology GOWIN-GW2A
+set_option -part GW2A_18C
+set_option -package PBGA484
+set_option -speed_grade -8
+
+set_option -frequency auto
+set_option -maxfan 10000
+set_option -disable_io_insertion 0
+set_option -update_models_cp 0
+set_option -rw_check_on_ram 1
+set_option -run_prop_extract 1
+set_option -symbolic_fsm_compiler 1
+set_option -resource_sharing 1
+set_option -pipe 1
+set_option -retiming 0
+set_option -write_apr_constraint 1
+set_option -vlog_std sysv
+set_option -compiler_compatible 0
+set_option -multi_file_compilation_unit 1
+set_option -looplimit 2000
+set_option -fix_gated_and_generated_clocks 1
+set_option -top_module video_top
+set_option -include_path {J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/frame_buffer;J:/Source_bac/Gowin_board/GW2A_LV18PG484/test_prj/dk_video_csi_720_LVCMOS12/src/dvi_tx_top}
+set_option -library_path D:/Gowin/Gowin_V1.9.6.02Beta/IDE/simlib/hardware_core/gw2a/prim_syn.v
+# set result format/file
+project -result_file "dk_video.vm"
+impl -active "rev_1"
+project -run -clean
+

@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG364 :"E:\GOWIN_WORK\IP_Design\MIPI\MIPI_release_case\MIPI_DPHY_Reference_Design\MIPI_RefDesign\temp\gao\ao_control\gw_con_parameter.v":1:0:1:8|Synthesizing module work_E:\GOWIN_WORK\IP_Design\MIPI\MIPI_release_case\MIPI_DPHY_Reference_Design\MIPI_RefDesign\temp\gao\ao_control\gw_con_parameter.v_unit in library work.
+@N|Running in 64-bit mode
+

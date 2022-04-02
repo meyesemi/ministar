@@ -1,0 +1,141 @@
+/***********************************************************************
+ Physical Constraint file 
+ Version:1.8.0Beta
+ Created Time:   Wed Apr 11 09:00:50 2018
+ Device:         GW2A-55
+ Package:        PBGA484
+************************************************************************/
+IO_LOC "clk" R1;
+//IO_LOC "ddr_addr_15" AA2;
+IO_LOC "ddr_cs" Y8;     //M0_S0n
+IO_LOC "display" E7;    //16PIN
+IO_LOC "start" A6;      //14PIN
+IO_LOC "sw" D6;         //11PIN
+IO_LOC "init_calib_complete" A13;   //LED2
+IO_LOC "rst_nn" A17;    //SW2
+IO_LOC "seg_en[0]" A2;  //1PIN
+IO_LOC "seg_en[1]" D4;  //3PIN
+IO_LOC "seg_en[2]" A4;  //5PIN
+IO_LOC "seg_en[3]" C5;  //7PIN
+IO_LOC "show_data[0]" A3;     //2PIN
+IO_LOC "show_data[1]" C4;     //4PIN
+IO_LOC "show_data[2]" D5;     //6PIN
+IO_LOC "show_data[3]" A5;     //8PIN
+IO_LOC "out[0]" A7; //20PIN
+IO_LOC "out[1]" D8; //22PIN
+//IO_LOC "out[4]" E6;     //10PIN
+//IO_LOC "out[5]" C6;     //12PIN
+//IO_LOC "out[6]" A6;     //14PIN
+//IO_LOC "out[7]" E7;     //16PIN
+//IO_LOC "out[8]" C7;     //18PIN
+IO_LOC "ddr_addr[4]" Y6;    //M0_A4    
+IO_LOC "ddr_addr[5]" W6;    //M0_A5
+IO_LOC "ddr_addr[6]" V6;    //M0_A6
+IO_LOC "ddr_addr[7]" Y5;    //M0_A7
+IO_LOC "ddr_addr[8]" U6;    //M0_A8
+IO_LOC "ddr_addr[9]" AB4;   //M0_A9
+IO_LOC "ddr_addr[10]" AB7;  //M0_A10
+IO_LOC "ddr_addr[11]" W5;   //M0_A11
+IO_LOC "ddr_addr[12]" Y4;   //M0_A12
+IO_LOC "ddr_addr[13]" V10;  //M0_A13
+IO_LOC "ddr_ras" W8;        //M0_RASn
+IO_LOC "ddr_addr[14]" AB2;  //M0_A14
+IO_LOC "ddr_bank[0]" V8;    //M0_BA0
+IO_LOC "ddr_bank[1]" AA7;   //M0_BA1
+IO_LOC "ddr_bank[2]" AB3;   //M0_BA2
+IO_LOC "ddr_cas" AB8;//AB18;//AB8;       //M0_CASn
+IO_LOC "ddr_we" AA8;        //M0_WEn
+IO_LOC "ddr_cke" AB1;       //M0_CKE0
+IO_LOC "ddr_odt" V9;        //M0_ODT0
+IO_LOC "ddr_addr[0]" Y7;    //M0_A0
+IO_LOC "ddr_addr[1]" U7;    //M0_A1
+IO_LOC "ddr_addr[2]" V7;    //M0_A2
+IO_LOC "ddr_addr[3]" AA6;   //M0_A3
+IO_LOC "ddr_dm[0]" F4;     //U18; //F4;      //M0_DM0
+IO_LOC "ddr_dm[1]" G1;      //M0_DM1
+IO_LOC "ddr_dq[0]" C3;  //U17;     //C3;      //M0_DQ0
+IO_LOC "ddr_dq[10]" H5;
+IO_LOC "ddr_dq[11]" J5;
+IO_LOC "ddr_dq[12]" C1;
+IO_LOC "ddr_dq[13]" D1;
+IO_LOC "ddr_dq[14]" H4;
+IO_LOC "ddr_dq[15]" J4;
+IO_LOC "ddr_dq[1]" D3;  //T18; //D3;
+IO_LOC "ddr_dq[2]" G5;  //W20; //G5;
+IO_LOC "ddr_dq[3]" G6;  //AB22;   //G6;
+IO_LOC "ddr_dq[4]" B2;  //T17; //B2;
+IO_LOC "ddr_dq[5]" B3;  //R18; //B3;
+IO_LOC "ddr_dq[6]" E5;  //V20; //E5;
+IO_LOC "ddr_dq[7]" F5;  //AB21;    //F5;
+IO_LOC "ddr_dq[8]" E1;
+IO_LOC "ddr_dq[9]" F1;
+IO_LOC "ddr_dqs[0]"  E4,E3; //Y22,AA22;   //E4, E3;     //M0_DQS0
+IO_LOC "ddr_dqs[1]" F2, G2;     //M0_DQS1
+IO_LOC "ddr_ck" W9, Y9; // Y19, Y18;//       //M0_CK0
+IO_LOC "ddr_reset_n" P3;        //M0_RST_N
+//INS_LOC "u_ddr_phy_top/u_ddr_phy_wd/u_dll1" DLL_TL;
+//INS_LOC "u_ddr_phy_top/u_PLL" PLL_L[0];
+IO_PORT "ddr_addr[14]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[7]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_bank[0]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[13]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[8]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[9]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[12]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[0]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[4]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_we"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[3]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[11]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_bank[2]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[10]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_bank[1]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_cas"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[2]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_ras"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_odt"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[5]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[6]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_cke"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_addr[1]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_reset_n"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_ck"  IO_TYPE=SSTL15D BANK_VCCIO=1.5;
+IO_PORT "ddr_dm[0]"  IO_TYPE=LVCMOS15 SINGLE_RESISTOR=OFF BANK_VCCIO=1.5;
+IO_PORT "ddr_dm[1]"  IO_TYPE=LVCMOS15 SINGLE_RESISTOR=OFF BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[6]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[9]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[0]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[3]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[13]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[12]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[14]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[2]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[4]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[15]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[11]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[8]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[10]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[1]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[5]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dq[7]"  IO_TYPE=SSTL15 SINGLE_RESISTOR=ON VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "ddr_dqs[1]"  IO_TYPE=SSTL15D SINGLE_RESISTOR=ON BANK_VCCIO=1.5;
+IO_PORT "ddr_dqs[0]"  IO_TYPE=SSTL15D SINGLE_RESISTOR=ON BANK_VCCIO=1.5;
+IO_PORT "clk"  IO_TYPE=SSTL15 SINGLE_RESISTOR=OFF VREF=INTERNAL BANK_VCCIO=1.5;
+IO_PORT "rst_nn"  IO_TYPE=LVCMOS15;
+IO_PORT "display"  IO_TYPE=LVCMOS15;
+IO_PORT "start"  IO_TYPE=LVCMOS15;
+IO_PORT "sw"  IO_TYPE=LVCMOS15;
+//IO_PORT "ddr_addr_15"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "ddr_cs"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "init_calib_complete"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "seg_en[0]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "seg_en[1]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "seg_en[2]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "seg_en[3]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "show_data[0]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "show_data[1]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "show_data[2]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "show_data[3]"  IO_TYPE=LVCMOS15 BANK_VCCIO=1.5;
+IO_PORT "out[0]"  IO_TYPE=SSTL15 BANK_VCCIO=1.5;
+IO_PORT "out[1]"  IO_TYPE=SSTL15 BANK_VCCIO=1.5;
+

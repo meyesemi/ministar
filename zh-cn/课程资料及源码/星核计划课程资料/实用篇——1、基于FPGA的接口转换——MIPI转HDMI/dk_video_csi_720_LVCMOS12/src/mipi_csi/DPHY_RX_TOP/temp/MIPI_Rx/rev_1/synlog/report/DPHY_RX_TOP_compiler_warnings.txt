@@ -1,0 +1,6 @@
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.3.01Beta_37928_20200110\IDE\ipcore\MIPI_RX\data\DPHY_RX.v":2616:13:2616:23|Net arempty_val is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.3.01Beta_37928_20200110\IDE\ipcore\MIPI_RX\data\DPHY_RX.v":2650:13:2650:22|Net awfull_val is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.3.01Beta_37928_20200110\IDE\ipcore\MIPI_RX\data\DPHY_RX.v":2927:14:2927:21|Net clk_byte is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.3.01Beta_37928_20200110\IDE\ipcore\MIPI_RX\data\DPHY_RX.v":3477:13:3477:23|Net arempty_val is not declared.
+@W: CG1337 :"D:\Gowin\Gowin_V1.9.3.01Beta_37928_20200110\IDE\ipcore\MIPI_RX\data\DPHY_RX.v":3511:13:3511:22|Net awfull_val is not declared.
+

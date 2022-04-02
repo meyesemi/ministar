@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>E:\GOWIN_WORK\IP_Design\MIPI\MIPI_release_case\MIPI_DPHY_Reference_Design\MIPI_RefDesign\impl\synthesize\rev_1\synlog\MIPI_RefDesign_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>_~DPHY_RX_DPHY_RX_TOP__|HS_CLK_inferred_clock</data>
+<data>274.3 MHz</data>
+<data>233.2 MHz</data>
+<data>-0.643</data>
+</row>
+<row>
+<data>_~idesx8_DPHY_RX_TOP__|clk_byte_out_inferred_clock</data>
+<data>111.6 MHz</data>
+<data>94.9 MHz</data>
+<data>-1.581</data>
+</row>
+<row>
+<data>_~oserx8_DPHY_TX_TOP__|sclk_0_inferred_clock</data>
+<data>216.9 MHz</data>
+<data>184.4 MHz</data>
+<data>-0.813</data>
+</row>
+<row>
+<data>System</data>
+<data>229.5 MHz</data>
+<data>195.1 MHz</data>
+<data>-0.769</data>
+</row>
+</report_table>
